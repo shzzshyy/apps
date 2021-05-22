@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+target "JinDao" do
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MJExtension'
+pod 'MJRefresh'
+pod 'SDAutoLayout'
+pod 'LKDBHelper'
+pod 'JSONModel'
+pod 'Bugly'
+pod 'ReactiveCocoa','~> 2.5'
+end

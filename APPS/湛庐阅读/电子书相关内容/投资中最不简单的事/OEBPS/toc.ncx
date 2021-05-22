@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+   "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="9787220106644"/>
+    <meta name="dtb:depth" content="2"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>投资中不简单的事</text>
+  </docTitle>
+  <navMap>
+   
+    <navPoint id="navPoint-1" playOrder="1">
+      <navLabel><text>封面1</text></navLabel>
+      <content src="Text/cover.xhtml"/>
+    </navPoint>
+
+    <navPoint id="navPoint-2" playOrder="2">
+      <navLabel><text>封面2</text></navLabel>
+      <content src="Text/titlepage1.xhtml"/>
+    </navPoint>
+   
+    <navPoint id="navPoint-3" playOrder="3">
+      <navLabel><text>版权信息</text></navLabel>
+      <content src="Text/copyright1.xhtml"/>
+    </navPoint>
+
+    <navPoint id="navPoint-4" playOrder="4">
+      <navLabel><text>推荐序</text></navLabel>
+      <content src="Text/preface1.xhtml"/>
+      
+      <navPoint id="navPoint-5" playOrder="5">
+        <navLabel><text>中国价值投资实践的启示录</text></navLabel>
+        <content src="Text/preface1.xhtml#pre1_1_1_1"/>
+      </navPoint>
+
+    </navPoint>
+
+    <navPoint id="navPoint-6" playOrder="6">
+      <navLabel><text>序言</text></navLabel>
+      <content src="Text/preface2.xhtml"/>
+     
+      <navPoint id="navPoint-7" playOrder="7">
+        <navLabel><text>简单理念的不简单坚守</text></navLabel>
+        <content src="Text/preface2.xhtml#pre2_2_1_1"/>
+      </navPoint>
+
+    </navPoint>
+
+    <navPoint id="navPoint-8" playOrder="8">
+      <navLabel><text>思想篇</text></navLabel>
+      <content src="Text/part1.xhtml"/>
+    </navPoint>
+
+    <navPoint id="navPoint-9" playOrder="9">
+      <navLabel><text>01 回归投资的本质，做时间的朋友</text></navLabel>
+      <content src="Text/chapter1.xhtml"/>
+
+      <navPoint id="navPoint-10" playOrder="10">
+        <navLabel><text>返璞归真，回归投资的本质</text></navLabel>
+        <content src="Text/chapter1.xhtml#isbn9787220106644_1_1_1_1"/>
+      </navPoint>
+
+      <navPoint id="navPoint-11" playOrder="11">
+        <navLabel><text>行业的维度</text></navLabel>
+        <content src="Text/chapter1_0001.xhtml#isbn9787220106644_1_1_1_2"/>
+      </navPoint>
+
+      <navPoint id="navPoint-12" playOrder="12">
+        <navLabel><text>公司的维度</text></navLabel>
+        <content src="Text/chapter1_0002.xhtml#isbn9787220106644_1_1_1_3"/>
+      </navPoint>
+
+      <navPoint id="navPoint-13" playOrder="13">
+        <navLabel><text>管理层的维度</text></navLabel>
+        <content src="Text/chapter1_0003.xhtml#isbn9787220106644_1_1_1_4"/>
+      </navPoint>
+
+    </navPoint>
+
+    <navPoint id="navPoint-14" playOrder="14">
+      <navLabel><text>02 在中国市场做价值投资的思路</text></navLabel>
+      <content src="Text/chapter2.xhtml"/>
+
+      <navPoint id="navPoint-15" playOrder="15">
+        <navLabel><text>价值投资的出发点：企业持续创造价值</text></navLabel>
+        <content src="Text/chapter2.xhtml#isbn9787220106644_1_2_1_1"/>
+      </navPoint>
+
+      <navPoint id="navPoint-16" playOrder="16">
+        <navLabel><text>价值投资要与估值水平相结合</text></navLabel>
+        <content src="Text/chapter2_0001.xhtml#isbn9787220106644_1_2_1_2"/>
+      </navPoint>
+
+      <navPoint id="navPoint-17" playOrder="17">
+        <navLabel><text>主动投资超越指数越来越困难</text></navLabel>
+        <content src="Text/chapter2_0002.xhtml#isbn9787220106644_1_2_1_3"/>
+      </navPoint>
+
+      <navPoint id="navPoint-18" playOrder="18">
+        <navLabel><text>独立思考</text></navLabel>
+        <content src="Text/chapter2_0003.xhtml#isbn9787220106644_1_2_1_4"/>
+      </navPoint>
+
+      <navPoint id="navPoint-19" playOrder="19">
+        <navLabel><text>从长远视野看超额收益的立足点</text></navLabel>
+        <content src="Text/chapter2_0004.xhtml#isbn9787220106644_1_2_1_5"/>
+      </navPoint>
+    </navPoint>
+
+    <navPoint id="navPoint-20" playOrder="20">
+      <navLabel><text>03 我所理解的基本面投资</text></navLabel>
+      <content src="Text/chapter3.xhtml"/>
+
+      <navPoint id="navPoint-21" playOrder="21">
+        <navLabel><text>不确定性即风险</text></navLabel>
+        <content src="Text/chapter3.xhtml#isbn9787220106644_1_3_1_1"/>
+      </navPoint>
+
+      <navPoint id="navPoint-22" playOrder="22">
+        <navLabel><text>投资的N种方法：你无法真正掌握N个变量</text></navLabel>
+        <content src="Text/chapter3_0001.xhtml#isbn9787220106644_1_3_1_2"/>
+      </navPoint>
+
+      <navPoint id="navPoint-23" playOrder="23">
+        <navLabel><text>基本面投资：把N个变量“降维”到最重要的3个变量</text></navLabel>
+        <content src="Text/chapter3_0002.xhtml#isbn9787220106644_1_3_1_3"/>
+      </navPoint>
+
+      <navPoint id="navPoint-24" playOrder="24">
+        <navLabel><text>组合投资的意义：更多的研究是为了更少的决策</text></navLabel>
+        <content src="Text/chapter3_0003.xhtml#isbn9787220106644_1_3_1_4"/>
+      </navPoint>
+
+      <navPoint id="navPoint-25" playOrder="25">
+        <navLabel><text>基本面投资适用于高波动的A股市场吗</text></navLabel>
+        <content src="Text/chapter3_0004.xhtml#isbn9787220106644_1_3_1_5"/>
+      </navPoint>
+    </navPoint>
+
+    <navPoint id="navPoint-26" playOrder="26">
+      <navLabel><text>04 行业周期的判断和投资思路</text></navLabel>
+      <content src="Text/chapter4.xhtml"/>
+
+      <navPoint id="navPoint-27" playOrder="27">
+        <navLabel><text>投资框架：自上而下思考，自下而上选择</text></navLabel>
+        <content src="Text/chapter4.xhtml#isbn9787220106644_1_4_1_1"/>
+      </navPoint>
+
+      <navPoint id="navPoint-28" playOrder="28">
+        <navLabel><text>成长期行业的投资思路</text></navLabel>
+        <content src="Text/chapter4_0001.xhtml#isbn9787220106644_1_4_1_2"/>
+      </navPoint>
+
+      <navPoint id="navPoint-29" playOrder="29">
+        <navLabel><text>稳定期行业的投资思路</text></navLabel>
+        <content src="Text/chapter4_0002.xhtml#isbn9787220106644_1_4_1_3"/>
+      </navPoint>
+     
+      <navPoint id="navPoint-30" playOrder="30">
+        <navLabel><text>未来投资看好的行业</text></navLabel>
+        <content src="Text/chapter4_0003.xhtml#isbn9787220106644_1_4_1_4"/>
+      </navPoint>
+    </navPoint>
+
+    <navPoint id="navPoint-31" playOrder="31">
+      <navLabel>
+        <text>05 逆向投资核心方法</text>
+      </navLabel>
+      <content src="Text/chapter5.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-32" playOrder="32">
+      <navLabel>
+        <text>06 在经济变化的主航道上投资</text>
+      </navLabel>
+      <content src="Text/chapter6.xhtml"/>
+      <navPoint id="navPoint-33" playOrder="33">
+        <navLabel>
+          <text>投资生涯回顾</text>
+        </navLabel>
+        <content src="Text/chapter6_0001.xhtml#isbn9787220106644_1_6_1_1"/>
+      </navPoint>
+      <navPoint id="navPoint-34" playOrder="34">
+        <navLabel>
+          <text>构建在创新和护城河基础上的投资框架</text>
+        </navLabel>
+        <content src="Text/chapter6_0002.xhtml#isbn9787220106644_1_6_1_2"/>
+      </navPoint>
+      <navPoint id="navPoint-35" playOrder="35">
+        <navLabel>
+          <text>坚持投资在经济主航道上</text>
+        </navLabel>
+        <content src="Text/chapter6_0003.xhtml#isbn9787220106644_1_6_1_3"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-36" playOrder="36">
+      <navLabel>
+        <text>07 学习把最重要的事情做到极致</text>
+      </navLabel>
+      <content src="Text/chapter7.xhtml"/>
+      <navPoint id="navPoint-37" playOrder="37">
+        <navLabel>
+          <text>学会研究最重要的问题</text>
+        </navLabel>
+        <content src="Text/chapter7.xhtml#isbn9787220106644_1_7_1_1"/>
+      </navPoint>
+      <navPoint id="navPoint-38" playOrder="38">
+        <navLabel>
+          <text>四个维度，思考什么是重要的问题</text>
+        </navLabel>
+        <content src="Text/chapter7_0001.xhtml#isbn9787220106644_1_7_1_2"/>
+      </navPoint>
+      <navPoint id="navPoint-39" playOrder="39">
+        <navLabel>
+          <text>把握产业的本质、核心要素与关键变化</text>
+        </navLabel>
+        <content src="Text/chapter7_0002.xhtml#isbn9787220106644_1_7_1_3"/>
+      </navPoint>
+      <navPoint id="navPoint-40" playOrder="40">
+        <navLabel>
+          <text>从时间、空间、人，看企业的核心能力</text>
+        </navLabel>
+        <content src="Text/chapter7_0003.xhtml#isbn9787220106644_1_7_1_4"/>
+      </navPoint>
+      <navPoint id="navPoint-41" playOrder="41">
+        <navLabel>
+          <text>从四个逻辑简单分析四类行业</text>
+        </navLabel>
+        <content src="Text/chapter7_0004.xhtml#isbn9787220106644_1_7_1_5"/>
+      </navPoint>
+      <navPoint id="navPoint-42" playOrder="42">
+        <navLabel>
+          <text>研究的三个环节：归纳、演绎、实证</text>
+        </navLabel>
+        <content src="Text/chapter7_0005.xhtml#isbn9787220106644_1_7_1_6"/>
+      </navPoint>
+      <navPoint id="navPoint-43" playOrder="43">
+        <navLabel>
+          <text>优秀研究员的个体特质</text>
+        </navLabel>
+        <content src="Text/chapter7_0006.xhtml#isbn9787220106644_1_7_1_7"/>
+      </navPoint>
+      <navPoint id="navPoint-44" playOrder="44">
+        <navLabel>
+          <text>正确的心态，必要训练时间与放下经验</text>
+        </navLabel>
+        <content src="Text/chapter7_0007.xhtml#isbn9787220106644_1_7_1_8"/>
+      </navPoint>
+      <navPoint id="navPoint-45" playOrder="45">
+        <navLabel>
+          <text>日常工作的建议</text>
+        </navLabel>
+        <content src="Text/chapter7_0008.xhtml#isbn9787220106644_1_7_1_9"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-46" playOrder="46">
+      <navLabel>
+        <text>智者之书一</text>
+      </navLabel>
+      <content src="Text/chapter8.xhtml"/>
+      <navPoint id="navPoint-47" playOrder="47">
+        <navLabel>
+          <text>经得起时间检验的投资思想</text>
+        </navLabel>
+        <content src="Text/chapter8.xhtml#isbn9787220106644_1_8_1_1"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-48" playOrder="48">
+      <navLabel>
+        <text>智者之书二</text>
+      </navLabel>
+      <content src="Text/chapter9.xhtml"/>
+      <navPoint id="navPoint-49" playOrder="49">
+        <navLabel>
+          <text>用资本创造价值</text>
+        </navLabel>
+        <content src="Text/chapter9.xhtml#isbn9787220106644_1_9_1_1"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-50" playOrder="50">
+      <navLabel>
+        <text>智者之书三</text>
+      </navLabel>
+      <content src="Text/chapter10.xhtml"/>
+      <navPoint id="navPoint-51" playOrder="51">
+        <navLabel>
+          <text>快乐投资的源泉</text>
+        </navLabel>
+        <content src="Text/chapter10.xhtml#isbn9787220106644_1_10_1_1"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-52" playOrder="52">
+      <navLabel>
+        <text>实践篇</text>
+      </navLabel>
+      <content src="Text/part2.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-53" playOrder="53">
+      <navLabel>
+        <text>08 投资中的变与不变</text>
+      </navLabel>
+      <content src="Text/chapter11.xhtml"/>
+      <navPoint id="navPoint-54" playOrder="54">
+        <navLabel>
+          <text>投资中的变化</text>
+        </navLabel>
+        <content src="Text/chapter11_0001.xhtml#isbn9787220106644_2_11_1_1"/>
+      </navPoint>
+      <navPoint id="navPoint-55" playOrder="55">
+        <navLabel>
+          <text>投资中的不变</text>
+        </navLabel>
+        <content src="Text/chapter11_0002.xhtml#isbn9787220106644_2_11_1_2"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-56" playOrder="56">
+      <navLabel>
+        <text>09 “从0到1”的陷阱和“从1到N”的机会</text>
+      </navLabel>
+      <content src="Text/chapter12.xhtml"/>
+      <navPoint id="navPoint-57" playOrder="57">
+        <navLabel>
+          <text>从0到1，是美好还是陷阱</text>
+        </navLabel>
+        <content src="Text/chapter12_0001.xhtml#isbn9787220106644_2_12_1_1"/>
+      </navPoint>
+      <navPoint id="navPoint-58" playOrder="58">
+        <navLabel>
+          <text>从1到N，背后的机会与力量</text>
+        </navLabel>
+        <content src="Text/chapter12_0002.xhtml#isbn9787220106644_2_12_1_2"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-59" playOrder="59">
+      <navLabel>
+        <text>10 新牛市背景下的风险与机会</text>
+      </navLabel>
+      <content src="Text/chapter13.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-60" playOrder="60">
+      <navLabel>
+        <text>11 基本面投资在中国的实践</text>
+      </navLabel>
+      <content src="Text/chapter14.xhtml"/>
+      <navPoint id="navPoint-61" playOrder="61">
+        <navLabel>
+          <text>理解市场，理解经济规律</text>
+        </navLabel>
+        <content src="Text/chapter14_0001.xhtml#isbn9787220106644_2_14_1_1"/>
+      </navPoint>
+      <navPoint id="navPoint-62" playOrder="62">
+        <navLabel>
+          <text>建立自己的坐标系</text>
+        </navLabel>
+        <content src="Text/chapter14_0002.xhtml#isbn9787220106644_2_14_1_2"/>
+      </navPoint>
+      <navPoint id="navPoint-63" playOrder="63">
+        <navLabel>
+          <text>案例一：华为、中兴在全球兴起的原因</text>
+        </navLabel>
+        <content src="Text/chapter14_0003.xhtml#isbn9787220106644_2_14_1_3"/>
+      </navPoint>
+      <navPoint id="navPoint-64" playOrder="64">
+        <navLabel>
+          <text>案例二：市场对中国银行业存在误解</text>
+        </navLabel>
+        <content src="Text/chapter14_0004.xhtml#isbn9787220106644_2_14_1_4"/>
+      </navPoint>
+      <navPoint id="navPoint-65" playOrder="65">
+        <navLabel>
+          <text>未来超额收益可能存在于巨大争议中</text>
+        </navLabel>
+        <content src="Text/chapter14_0005.xhtml#isbn9787220106644_2_14_1_5"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-66" playOrder="66">
+      <navLabel>
+        <text>12 深度研究，从市场认知偏差中发掘大机会</text>
+      </navLabel>
+      <content src="Text/chapter15.xhtml"/>
+      <navPoint id="navPoint-67" playOrder="67">
+        <navLabel>
+          <text>汽车与家电行业</text>
+        </navLabel>
+        <content src="Text/chapter15_0001.xhtml#isbn9787220106644_2_15_1_1"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-68" playOrder="68">
+      <navLabel>
+        <text>13 如何做好投研选择题</text>
+      </navLabel>
+      <content src="Text/chapter16.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-69" playOrder="69">
+      <navLabel>
+        <text>14 价值投资的优势和企业成长的力量</text>
+      </navLabel>
+      <content src="Text/chapter17.xhtml"/>
+      <navPoint id="navPoint-70" playOrder="70">
+        <navLabel>
+          <text>价值投资的力量</text>
+        </navLabel>
+        <content src="Text/chapter17_0001.xhtml#isbn9787220106644_2_17_1_1"/>
+      </navPoint>
+      <navPoint id="navPoint-71" playOrder="71">
+        <navLabel>
+          <text>为什么我们今天要开始看企业成长的力量</text>
+        </navLabel>
+        <content src="Text/chapter17_0002.xhtml#isbn9787220106644_2_17_1_2"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-72" playOrder="72">
+      <navLabel>
+        <text>15 5 178一周年思考</text>
+      </navLabel>
+      <content src="Text/chapter18.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-73" playOrder="73">
+      <navLabel>
+        <text>16 股票研究的断舍离</text>
+      </navLabel>
+      <content src="Text/chapter19.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-74" playOrder="74">
+      <navLabel>
+        <text>17 市场的不可知与可知</text>
+      </navLabel>
+      <content src="Text/chapter20.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-75" playOrder="75">
+      <navLabel>
+        <text>18 对操作策略和估值应用的一点思考</text>
+      </navLabel>
+      <content src="Text/chapter21.xhtml"/>
+      <navPoint id="navPoint-76" playOrder="76">
+        <navLabel>
+          <text>不简单的投资</text>
+        </navLabel>
+        <content src="Text/chapter21_0001.xhtml#sigil_toc_id_11"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-77" playOrder="77">
+      <navLabel>
+        <text>19 当我们谈论公司时我们谈什么？</text>
+      </navLabel>
+      <content src="Text/chapter22.xhtml"/>
+      <navPoint id="navPoint-78" playOrder="78">
+        <navLabel>
+          <text>生意的本质</text>
+        </navLabel>
+        <content src="Text/chapter22_0001.xhtml#isbn9787220106644_2_22_1_1"/>
+      </navPoint>
+      <navPoint id="navPoint-79" playOrder="79">
+        <navLabel>
+          <text>企业的战略选择：成本、效率与差异化</text>
+        </navLabel>
+        <content src="Text/chapter22_0002.xhtml#isbn9787220106644_2_22_1_2"/>
+      </navPoint>
+      <navPoint id="navPoint-80" playOrder="80">
+        <navLabel>
+          <text>从人的因素到组织的系统能力</text>
+        </navLabel>
+        <content src="Text/chapter22_0003.xhtml#isbn9787220106644_2_22_1_3"/>
+      </navPoint>
+      <navPoint id="navPoint-81" playOrder="81">
+        <navLabel>
+          <text>选择研究最优秀的企业</text>
+        </navLabel>
+        <content src="Text/chapter22_0004.xhtml#isbn9787220106644_2_22_1_4"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-82" playOrder="82">
+      <navLabel>
+        <text>20 从“渗透率”到“市场占有率”</text>
+      </navLabel>
+      <content src="Text/chapter23.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-83" playOrder="83">
+      <navLabel>
+        <text>21 投资中我们为何甘愿又“蠢”又“饿”</text>
+      </navLabel>
+      <content src="Text/chapter24.xhtml"/>
+      <navPoint id="navPoint-84" playOrder="84">
+        <navLabel>
+          <text>只有懂得股市的危险，我们才能在其中长期生存</text>
+        </navLabel>
+        <content src="Text/chapter24.xhtml#isbn9787220106644_2_24_1_1"/>
+      </navPoint>
+      <navPoint id="navPoint-85" playOrder="85">
+        <navLabel>
+          <text>可能的方向和路径选择：如何选择看待世界的角度</text>
+        </navLabel>
+        <content src="Text/chapter24_0001.xhtml#isbn9787220106644_2_24_1_2"/>
+      </navPoint>
+      <navPoint id="navPoint-86" playOrder="86">
+        <navLabel>
+          <text>投资最大的隐性约束条件：人性的缺陷</text>
+        </navLabel>
+        <content src="Text/chapter24_0002.xhtml#isbn9787220106644_2_24_1_3"/>
+      </navPoint>
+      <navPoint id="navPoint-87" playOrder="87">
+        <navLabel>
+          <text>我们的选择：以基本面投资为主体的投资系统</text>
+        </navLabel>
+        <content src="Text/chapter24_0003.xhtml#isbn9787220106644_2_24_1_4"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-88" playOrder="88">
+      <navLabel>
+        <text>2017年度策略 在市场分化中集中优势</text>
+      </navLabel>
+      <content src="Text/chapter25.xhtml"/>
+      <navPoint id="navPoint-89" playOrder="89">
+        <navLabel>
+          <text>2016年“围炉夜话”的预判：</text>
+        </navLabel>
+        <content src="Text/chapter25_0001.xhtml#isbn9787220106644_2_25_1_1"/>
+      </navPoint>
+      <navPoint id="navPoint-90" playOrder="90">
+        <navLabel>
+          <text>2017年“围炉夜话”观点概要</text>
+        </navLabel>
+        <content src="Text/chapter25_0002.xhtml#isbn9787220106644_2_25_1_2"/>
+      </navPoint>
+      <navPoint id="navPoint-91" playOrder="91">
+        <navLabel>
+          <text>投资中新的思考</text>
+        </navLabel>
+        <content src="Text/chapter25_0003.xhtml#isbn9787220106644_2_25_1_3"/>
+      </navPoint>
+      <navPoint id="navPoint-92" playOrder="92">
+        <navLabel>
+          <text>2017年投资中重点考虑的问题</text>
+        </navLabel>
+        <content src="Text/chapter25_0004.xhtml#isbn9787220106644_2_25_1_4"/>
+      </navPoint>
+      <navPoint id="navPoint-93" playOrder="93">
+        <navLabel>
+          <text>投资业绩来自投研团队的系统能力</text>
+        </navLabel>
+        <content src="Text/chapter25_0005.xhtml#isbn9787220106644_2_25_1_5"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-94" playOrder="94">
+      <navLabel>
+        <text>2016年度策略 经济筑底，估值修复</text>
+      </navLabel>
+      <content src="Text/chapter26.xhtml"/>
+      <navPoint id="navPoint-95" playOrder="95">
+        <navLabel>
+          <text>激辩2016年：投资中几个重要问题</text>
+        </navLabel>
+        <content src="Text/chapter26_0001.xhtml#isbn9787220106644_2_26_1_1"/>
+      </navPoint>
+      <navPoint id="navPoint-96" playOrder="96">
+        <navLabel>
+          <text>对2016年的总体看法</text>
+        </navLabel>
+        <content src="Text/chapter26_0002.xhtml#isbn9787220106644_2_26_1_2"/>
+      </navPoint>
+      <navPoint id="navPoint-97" playOrder="97">
+        <navLabel>
+          <text>回顾2015年：坚守价值，保持信心</text>
+        </navLabel>
+        <content src="Text/chapter26_0003.xhtml#isbn9787220106644_2_26_1_3"/>
+      </navPoint>
+      <navPoint id="navPoint-98" playOrder="98">
+        <navLabel>
+          <text>基本面研究以及价值投资方法</text>
+        </navLabel>
+        <content src="Text/chapter26_0004.xhtml#isbn9787220106644_2_26_1_4"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-99" playOrder="99">
+      <navLabel>
+        <text>成长篇</text>
+      </navLabel>
+      <content src="Text/part3.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-100" playOrder="100">
+      <navLabel>
+        <text>22 邱国鹭：22年股市投研框架概览</text>
+      </navLabel>
+      <content src="Text/chapter27.xhtml"/>
+      <navPoint id="navPoint-101" playOrder="101">
+        <navLabel>
+          <text>邱氏投资的“三好”原则</text>
+        </navLabel>
+        <content src="Text/chapter27_0001.xhtml#isbn9787220106644_3_27_1_1"/>
+      </navPoint>
+      <navPoint id="navPoint-102" playOrder="102">
+        <navLabel>
+          <text>邱氏调研心法全揭秘</text>
+        </navLabel>
+        <content src="Text/chapter27_0002.xhtml#isbn9787220106644_3_27_1_2"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-103" playOrder="103">
+      <navLabel>
+        <text>23 邓晓峰：投资的赛场比拼的是学习能力</text>
+      </navLabel>
+      <content src="Text/chapter28.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-104" playOrder="104">
+      <navLabel>
+        <text>24 “股市常青树”孙庆瑞，为何长短期皆不败</text>
+      </navLabel>
+      <content src="Text/chapter29.xhtml"/>
+      <navPoint id="navPoint-105" playOrder="105">
+        <navLabel>
+          <text>行业配置每个阶段都有清晰主线</text>
+        </navLabel>
+        <content src="Text/chapter29_0001.xhtml#isbn9787220106644_3_29_1_1"/>
+      </navPoint>
+      <navPoint id="navPoint-106" playOrder="106">
+        <navLabel>
+          <text>配置高手有强大的宏观逻辑</text>
+        </navLabel>
+        <content src="Text/chapter29_0002.xhtml#isbn9787220106644_3_29_1_2"/>
+      </navPoint>
+      <navPoint id="navPoint-107" playOrder="107">
+        <navLabel>
+          <text>有时候，选择比努力更重要</text>
+        </navLabel>
+        <content src="Text/chapter29_0003.xhtml#isbn9787220106644_3_29_1_3"/>
+      </navPoint>
+      <navPoint id="navPoint-108" playOrder="108">
+        <navLabel>
+          <text>私募投资，方法可持续，空间更灵活</text>
+        </navLabel>
+        <content src="Text/chapter29_0004.xhtml#isbn9787220106644_3_29_1_4"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-109" playOrder="109">
+      <navLabel>
+        <text>25 卓利伟，在A股市场长期坚持基本面投资</text>
+      </navLabel>
+      <content src="Text/chapter30.xhtml"/>
+      <navPoint id="navPoint-110" playOrder="110">
+        <navLabel>
+          <text>寻找稀缺的确定性</text>
+        </navLabel>
+        <content src="Text/chapter30_0001.xhtml#isbn9787220106644_3_30_1_1"/>
+      </navPoint>
+      <navPoint id="navPoint-111" playOrder="111">
+        <navLabel>
+          <text>基本面是投资的不二法门</text>
+        </navLabel>
+        <content src="Text/chapter30_0002.xhtml#isbn9787220106644_3_30_1_2"/>
+      </navPoint>
+      <navPoint id="navPoint-112" playOrder="112">
+        <navLabel>
+          <text>更多的研究是为了更少的决策</text>
+        </navLabel>
+        <content src="Text/chapter30_0003.xhtml#isbn9787220106644_3_30_1_3"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-113" playOrder="113">
+      <navLabel>
+        <text>26 传奇高手冯柳，从职业股民到基金经理的修炼之路</text>
+      </navLabel>
+      <content src="Text/chapter31.xhtml"/>
+      <navPoint id="navPoint-114" playOrder="114">
+        <navLabel>
+          <text>“捕捉”消费股机遇</text>
+        </navLabel>
+        <content src="Text/chapter31_0001.xhtml#isbn9787220106644_3_31_1_1"/>
+      </navPoint>
+      <navPoint id="navPoint-115" playOrder="115">
+        <navLabel>
+          <text>投资观：不走寻常路</text>
+        </navLabel>
+        <content src="Text/chapter31_0002.xhtml#isbn9787220106644_3_31_1_2"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-116" playOrder="116">
+      <navLabel>
+        <text>投资对谈录一 孙庆瑞对话邱国鹭：“股市常青树”是如何炼成的</text>
+      </navLabel>
+      <content src="Text/chapter32.xhtml"/>
+      <navPoint id="navPoint-117" playOrder="117">
+        <navLabel>
+          <text>6年熊市从5 000点下跌至2 000点，她却赚了45%：如何做到长短皆不败？</text>
+        </navLabel>
+        <content src="Text/chapter32_0001.xhtml#isbn9787220106644_3_32_1_1"/>
+      </navPoint>
+      <navPoint id="navPoint-118" playOrder="118">
+        <navLabel>
+          <text>长期和短期如何辩证结合？从宏观和配置的角度另辟蹊径</text>
+        </navLabel>
+        <content src="Text/chapter32_0002.xhtml#isbn9787220106644_3_32_1_2"/>
+      </navPoint>
+      <navPoint id="navPoint-119" playOrder="119">
+        <navLabel>
+          <text>牛市还能走多远？听宏观高手讲股市分析方法</text>
+        </navLabel>
+        <content src="Text/chapter32_0003.xhtml#isbn9787220106644_3_32_1_3"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-120" playOrder="120">
+      <navLabel>
+        <text>投资对谈录二 邓晓峰对话邱国鹭：深谈十年投资经</text>
+      </navLabel>
+      <content src="Text/chapter33.xhtml"/>
+      <navPoint id="navPoint-121" playOrder="121">
+        <navLabel>
+          <text>学习管理大资金：有重点＋广覆盖</text>
+        </navLabel>
+        <content src="Text/chapter33_0001.xhtml#isbn9787220106644_3_33_1_1"/>
+      </navPoint>
+      <navPoint id="navPoint-122" playOrder="122">
+        <navLabel>
+          <text>吃透基本面，获得较高确定性</text>
+        </navLabel>
+        <content src="Text/chapter33_0002.xhtml#isbn9787220106644_3_33_1_2"/>
+      </navPoint>
+      <navPoint id="navPoint-123" playOrder="123">
+        <navLabel>
+          <text>买入：利用市场的无效，赚深入研究的钱</text>
+        </navLabel>
+        <content src="Text/chapter33_0003.xhtml#isbn9787220106644_3_33_1_3"/>
+      </navPoint>
+      <navPoint id="navPoint-124" playOrder="124">
+        <navLabel>
+          <text>卖出：合适时机如何找</text>
+        </navLabel>
+        <content src="Text/chapter33_0004.xhtml#isbn9787220106644_3_33_1_4"/>
+      </navPoint>
+      <navPoint id="navPoint-125" playOrder="125">
+        <navLabel>
+          <text>关于当下：和市场不同的看法</text>
+        </navLabel>
+        <content src="Text/chapter33_0005.xhtml#isbn9787220106644_3_33_1_5"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-126" playOrder="126">
+      <navLabel>
+        <text>附录一</text>
+      </navLabel>
+      <content src="Text/postscript1.xhtml"/>
+      <navPoint id="navPoint-127" playOrder="127">
+        <navLabel>
+          <text>价值信徒的坚守与百年老店的探索</text>
+        </navLabel>
+        <content src="Text/postscript1.xhtml#pos1_1_1_1"/>
+      </navPoint>
+      <navPoint id="navPoint-128" playOrder="128">
+        <navLabel>
+          <text>高毅伊始：“梦之队”群英聚首</text>
+        </navLabel>
+        <content src="Text/postscript1_0001.xhtml#pos1_1_1_2"/>
+      </navPoint>
+      <navPoint id="navPoint-129" playOrder="129">
+        <navLabel>
+          <text>走过2015：做投资要比谁活得长</text>
+        </navLabel>
+        <content src="Text/postscript1_0002.xhtml#pos1_1_1_3"/>
+      </navPoint>
+      <navPoint id="navPoint-130" playOrder="130">
+        <navLabel>
+          <text>回顾2016—2017年：深度基本面研究支持价值投资</text>
+        </navLabel>
+        <content src="Text/postscript1_0003.xhtml#pos1_1_1_4"/>
+      </navPoint>
+      <navPoint id="navPoint-131" playOrder="131">
+        <navLabel>
+          <text>投研特点：价值一派，各执所长</text>
+        </navLabel>
+        <content src="Text/postscript1_0004.xhtml#pos1_1_1_5"/>
+      </navPoint>
+      <navPoint id="navPoint-132" playOrder="132">
+        <navLabel>
+          <text>私募平台：建立好模式好机制，与信任共同成长</text>
+        </navLabel>
+        <content src="Text/postscript1_0005.xhtml#pos1_1_1_6"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-133" playOrder="133">
+      <navLabel>
+        <text>附录二</text>
+      </navLabel>
+      <content src="Text/postscript2.xhtml"/>
+      <navPoint id="navPoint-134" playOrder="134">
+        <navLabel>
+          <text>高毅资产简介</text>
+        </navLabel>
+        <content src="Text/postscript2.xhtml#pos2_2_1_1"/>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

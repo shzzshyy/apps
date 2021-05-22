@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"><ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta content="978-7-213-05011-4" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>系统之美：决策者的系统思考</text>
+  </docTitle>
+  <navMap>
+
+
+    <navPoint id="navPoint-1" playOrder="1">
+      <navLabel>
+        <text>封面</text>
+      </navLabel>
+      <content src="Text/coverpage.html"/>
+    </navPoint>
+   
+    <navPoint id="navPoint-2" playOrder="2">
+      <navLabel>
+        <text>前折页</text>
+      </navLabel>
+      <content src="Text/front001.html"/>
+    </navPoint>
+  
+    <navPoint id="navPoint-3" playOrder="3">
+      <navLabel>
+        <text>书名页</text>
+      </navLabel>
+      <content src="Text/front002.html"/>
+    </navPoint>
+  
+    <navPoint id="navPoint-4" playOrder="4">
+      <navLabel>
+        <text>版权信息</text>
+      </navLabel>
+      <content src="Text/front003.html"/>
+    </navPoint>
+  
+    <navPoint id="navPoint-5" playOrder="5">
+      <navLabel>
+        <text>各方赞誉</text>
+      </navLabel>
+      <content src="Text/front004.html"/>
+    </navPoint>
+   
+    <navPoint id="navPoint-6" playOrder="6">
+      <navLabel>
+        <text>献词 献给世界的复杂性</text>
+      </navLabel>
+      <content src="Text/front005.html"/>
+    </navPoint>
+  
+    <navPoint id="navPoint-7" playOrder="7">
+      <navLabel>
+        <text>导读 决策者的系统思考</text>
+      </navLabel>
+      <content src="Text/front006.html"/>
+    </navPoint>
+    
+    <navPoint id="navPoint-8" playOrder="8">
+      <navLabel>
+        <text>前言</text>
+      </navLabel>
+      <content src="Text/chapter001.html#a008"/>
+    </navPoint>
+    
+    <navPoint id="navPoint-9" playOrder="9">
+      <navLabel>
+        <text>引言 系统多棱镜</text>
+      </navLabel>
+      <content src="Text/chapter002.html#a009"/>
+    </navPoint>
+    
+    <navPoint id="navPoint-10" playOrder="10">
+      <navLabel><text>第一部分 系统的结构和行为</text></navLabel>
+      <content src="Text/chapter005.html#a010"/>
+        
+        <navPoint id="navPoint-11" playOrder="11">
+           <navLabel><text>第1章 系统之基础</text></navLabel>
+           <content src="Text/chapter005.html#b004"/>
+        </navPoint>
+
+       <navPoint id="navPoint-12" playOrder="12">
+          <navLabel><text>第2章 系统大观园</text></navLabel>
+          <content src="Text/chapter006.html#b005"/>
+       </navPoint>
+
+    </navPoint>
+
+
+    <navPoint id="navPoint-13" playOrder="13">
+      <navLabel><text>第二部分 系统思考与我们</text></navLabel>
+      <content src="Text/chapter007.html#a011"/>
+     
+        <navPoint id="navPoint-14" playOrder="14">
+           <navLabel> <text>第3章 系统之美：系统的3大特征</text></navLabel>
+           <content src="Text/chapter007.html#b006"/>
+         </navPoint>
+
+        <navPoint id="navPoint-15" playOrder="15">
+           <navLabel><text>第4章 系统之奇：系统的6大障碍</text></navLabel>
+           <content src="Text/chapter008.html#b007"/>
+        </navPoint>
+
+        <navPoint id="navPoint-16" playOrder="16">
+          <navLabel><text>第5章 系统之危与机：系统的8大陷阱与对策</text></navLabel>
+          <content src="Text/chapter009.html#b008"/>
+        </navPoint>
+
+    </navPoint>
+
+
+    <navPoint id="navPoint-17" playOrder="17">
+      <navLabel><text>第三部分 改变系统</text></navLabel>
+      <content src="Text/chapter010.html#a012"/>
+      
+      <navPoint id="navPoint-18" playOrder="18">
+        <navLabel><text>第6章 系统之杠杆点：系统的12大变革方式</text></navLabel>
+        <content src="Text/chapter010.html#b009"/>
+      </navPoint>
+
+      <navPoint id="navPoint-19" playOrder="19">
+        <navLabel><text>第7章 与系统共舞：系统的15大生存法则</text></navLabel>
+        <content src="Text/chapter011.html#b010"/>
+      </navPoint>
+
+    </navPoint>
+
+    <navPoint id="navPoint-20" playOrder="20">
+      <navLabel><text>附录</text></navLabel>
+      <content src="Text/chapter012.html#a013"/>
+     
+      <navPoint id="navPoint-21" playOrder="21">
+        <navLabel><text>系统术语表</text></navLabel>
+        <content src="Text/chapter012.html#b011"/>
+      </navPoint>
+    
+     <navPoint id="navPoint-22" playOrder="22">
+        <navLabel><text>系统原理概要</text></navLabel>
+        <content src="Text/chapter012_0001.html#b012"/>
+      </navPoint>
+     
+      <navPoint id="navPoint-23" playOrder="23">
+        <navLabel><text>常见的系统陷阱与对策</text></navLabel>
+        <content src="Text/chapter013_0001.html#b013"/>
+      </navPoint>
+
+      <navPoint id="navPoint-24" playOrder="24">
+        <navLabel><text>采取干预措施的杠杆点</text></navLabel>
+        <content src="Text/chapter014.html#b014"/>
+      </navPoint>
+
+      <navPoint id="navPoint-25" playOrder="25">
+        <navLabel><text>系统世界的生存法则</text></navLabel>
+        <content src="Text/chapter015.html#b015"/>
+      </navPoint>
+
+      <navPoint id="navPoint-26" playOrder="26">
+        <navLabel><text>模型公式</text></navLabel>
+        <content src="Text/chapter016.html#b016"/>
+      </navPoint>
+
+    </navPoint>
+
+    <navPoint id="navPoint-27" playOrder="27">
+      <navLabel>
+        <text>译者后记</text>
+      </navLabel>
+      <content src="Text/chapter017.html#a014"/>
+    </navPoint>
+    <navPoint id="navPoint-28" playOrder="28">
+      <navLabel>
+        <text>后折页</text>
+      </navLabel>
+      <content src="Text/back001.html"/>
+    </navPoint>
+    <navPoint id="navPoint-29" playOrder="29">
+      <navLabel>
+        <text>封底</text>
+      </navLabel>
+      <content src="Text/back002.html"/>
+    </navPoint>
+  </navMap>
+</ncx>

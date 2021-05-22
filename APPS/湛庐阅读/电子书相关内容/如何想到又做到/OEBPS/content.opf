@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="ISBN" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="ISBN">9787553674919</dc:identifier>
+    <dc:title>如何想到又做到</dc:title>
+    <dc:creator opf:role="aut">【美】肖恩·扬</dc:creator>
+    <dc:creator opf:role="aut">闾佳译</dc:creator>
+    <dc:language>zh-CN</dc:language>
+    <dc:date opf:event="">2018-10-01</dc:date>
+    <dc:publisher>浙江教育出版社</dc:publisher>
+    <meta content="Formax Inc." name="generator" />
+    <meta name="cover" content="my_cover_image" />
+    <meta content="0.7.4" name="Sigil version" />
+    <dc:date opf:event="modification">2018-10-15</dc:date>
+  </metadata>
+  <manifest>
+    <item href="Text/cover.xhtml" id="cov1_1" media-type="application/xhtml+xml" />
+    <item href="Text/copyright1.xhtml" id="cop1_1" media-type="application/xhtml+xml" />
+    <item href="Text/preface1.xhtml" id="pre1_1" media-type="application/xhtml+xml" />
+    <item href="Text/preface2.xhtml" id="pre2_2" media-type="application/xhtml+xml" />
+    <item href="Text/preface3.xhtml" id="pre3_3" media-type="application/xhtml+xml" />
+    <item href="Text/preface4.xhtml" id="pre4_4" media-type="application/xhtml+xml" />
+    <item href="Text/preface5.xhtml" id="pre5_5" media-type="application/xhtml+xml" />
+    <item href="Text/preface6.xhtml" id="pre6_6" media-type="application/xhtml+xml" />
+    <item href="Text/part1.xhtml" id="isbn9787553674919_1" media-type="application/xhtml+xml" />
+    <item href="Text/chapter1.xhtml" id="isbn9787553674919_1_1" media-type="application/xhtml+xml" />
+    <item href="Text/part2.xhtml" id="isbn9787553674919_2" media-type="application/xhtml+xml" />
+    <item href="Text/chapter2.xhtml" id="isbn9787553674919_2_2" media-type="application/xhtml+xml" />
+    <item href="Text/chapter3.xhtml" id="isbn9787553674919_2_3" media-type="application/xhtml+xml" />
+    <item href="Text/chapter4.xhtml" id="isbn9787553674919_2_4" media-type="application/xhtml+xml" />
+    <item href="Text/chapter5.xhtml" id="isbn9787553674919_2_5" media-type="application/xhtml+xml" />
+    <item href="Text/chapter6.xhtml" id="isbn9787553674919_2_6" media-type="application/xhtml+xml" />
+    <item href="Text/chapter7.xhtml" id="isbn9787553674919_2_7" media-type="application/xhtml+xml" />
+    <item href="Text/chapter8.xhtml" id="isbn9787553674919_2_8" media-type="application/xhtml+xml" />
+    <item href="Text/part3.xhtml" id="isbn9787553674919_3" media-type="application/xhtml+xml" />
+    <item href="Text/chapter9.xhtml" id="isbn9787553674919_3_9" media-type="application/xhtml+xml" />
+    <item href="Text/postscript1.xhtml" id="pos1_1" media-type="application/xhtml+xml" />
+    <item href="Text/postscript2.xhtml" id="pos2_2" media-type="application/xhtml+xml" />
+    <item href="Text/postscript3.xhtml" id="pos3_3" media-type="application/xhtml+xml" />
+    <item href="Text/postscript3_1.xhtml" id="pos3_3_1" media-type="application/xhtml+xml" />
+    <item href="Text/postscript3_2.xhtml" id="pos3_3_2" media-type="application/xhtml+xml" />
+    <item href="Styles/stylesheet.css" id="style" media-type="text/css" />
+    <item href="Styles/stylesheet-1.css" id="style1" media-type="text/css" />
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Text/content.xhtml" id="content" media-type="application/xhtml+xml" />
+    <item href="Images/cover.jpg" id="my_cover_image" media-type="image/jpeg" />
+    <item href="Images/Figure-P113_8311.jpg" id="img1" media-type="image/jpeg" />
+    <item href="Images/Figure-P117_8312.jpg" id="img2" media-type="image/jpeg" />
+    <item href="Images/Figure-P139_8313.jpg" id="img3" media-type="image/jpeg" />
+    <item href="Images/Figure-P142_8410.jpg" id="img4" media-type="image/jpeg" />
+    <item href="Images/Figure-P163_8411.jpg" id="img5" media-type="image/jpeg" />
+    <item href="Images/Figure-P191_8412.jpg" id="img6" media-type="image/jpeg" />
+    <item href="Images/Figure-P19_1293.jpg" id="img7" media-type="image/jpeg" />
+    <item href="Images/Figure-P209_5946.jpg" id="img8" media-type="image/jpeg" />
+    <item href="Images/Figure-P20_1294.jpg" id="img9" media-type="image/jpeg" />
+    <item href="Images/Figure-P210_5947.jpg" id="img10" media-type="image/jpeg" />
+    <item href="Images/Figure-P211_5948.jpg" id="img11" media-type="image/jpeg" />
+    <item href="Images/Figure-P217_8561.jpg" id="img12" media-type="image/jpeg" />
+    <item href="Images/Figure-P21_1295.jpg" id="img13" media-type="image/jpeg" />
+    <item href="Images/Figure-P224_8562.jpg" id="img14" media-type="image/jpeg" />
+    <item href="Images/Figure-P229_8569.jpg" id="img15" media-type="image/jpeg" />
+    <item href="Images/Figure-P236_8576.jpg" id="img16" media-type="image/jpeg" />
+    <item href="Images/Figure-P239_8585.jpg" id="img17" media-type="image/jpeg" />
+    <item href="Images/Figure-P243_6890.jpg" id="img18" media-type="image/jpeg" />
+    <item href="Images/Figure-P249_8594.jpg" id="img19" media-type="image/jpeg" />
+    <item href="Images/Figure-P250_7145.jpg" id="img20" media-type="image/jpeg" />
+    <item href="Images/Figure-P251_7576.jpg" id="img21" media-type="image/jpeg" />
+    <item href="Images/Figure-P252_8033.jpg" id="img22" media-type="image/jpeg" />
+    <item href="Images/Figure-P252_8595.jpg" id="img23" media-type="image/jpeg" />
+    <item href="Images/Figure-P252_8596.jpg" id="img24" media-type="image/jpeg" />
+    <item href="Images/Figure-P252_8597.jpg" id="img25" media-type="image/jpeg" />
+    <item href="Images/Figure-P252_8598.jpg" id="img26" media-type="image/jpeg" />
+    <item href="Images/Figure-P252_8599.jpg" id="img27" media-type="image/jpeg" />
+    <item href="Images/Figure-P35_8102.jpg" id="img28" media-type="image/jpeg" />
+    <item href="Images/Figure-P37_8103.jpg" id="img29" media-type="image/jpeg" />
+    <item href="Images/Figure-P38_8104.jpg" id="img30" media-type="image/jpeg" />
+    <item href="Images/Figure-P39_8105.jpg" id="img31" media-type="image/jpeg" />
+    <item href="Images/Figure-P3_233.jpg" id="img32" media-type="image/jpeg" />
+    <item href="Images/Figure-P44_2092.jpg" id="img33" media-type="image/jpeg" />
+    <item href="Images/Figure-P4_322.jpg" id="img34" media-type="image/jpeg" />
+    <item href="Images/Figure-P50_8190.jpg" id="img35" media-type="image/jpeg" />
+    <item href="Images/Figure-P5_421.jpg" id="img36" media-type="image/jpeg" />
+    <item href="Images/Figure-P67_2632.jpg" id="img37" media-type="image/jpeg" />
+    <item href="Images/Figure-P69_2633.jpg" id="img38" media-type="image/jpeg" />
+    <item href="Images/Figure-P6_554.jpg" id="img39" media-type="image/jpeg" />
+    <item href="Images/Figure-P6_599.jpg" id="img40" media-type="image/jpeg" />
+    <item href="Images/Figure-P6_617.jpg" id="img41" media-type="image/jpeg" />
+    <item href="Images/Figure-P93_2634.jpg" id="img42" media-type="image/jpeg" />
+    <item href="Images/Figure-T132_8358.jpg" id="img43" media-type="image/jpeg" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cov1_1" linear="yes" />
+    <itemref idref="cop1_1" linear="yes" />
+    <itemref idref="pre1_1" linear="yes" />
+    <itemref idref="pre2_2" linear="yes" />
+    <itemref idref="pre3_3" linear="yes" />
+    <itemref idref="pre4_4" linear="yes" />
+    <itemref idref="pre5_5" linear="yes" />
+    <itemref idref="pre6_6" linear="yes" />
+    <itemref idref="content" linear="yes" />
+    <itemref idref="isbn9787553674919_1" linear="yes" />
+    <itemref idref="isbn9787553674919_1_1" linear="yes" />
+    <itemref idref="isbn9787553674919_2" linear="yes" />
+    <itemref idref="isbn9787553674919_2_2" linear="yes" />
+    <itemref idref="isbn9787553674919_2_3" linear="yes" />
+    <itemref idref="isbn9787553674919_2_4" linear="yes" />
+    <itemref idref="isbn9787553674919_2_5" linear="yes" />
+    <itemref idref="isbn9787553674919_2_6" linear="yes" />
+    <itemref idref="isbn9787553674919_2_7" linear="yes" />
+    <itemref idref="isbn9787553674919_2_8" linear="yes" />
+    <itemref idref="isbn9787553674919_3" linear="yes" />
+    <itemref idref="isbn9787553674919_3_9" linear="yes" />
+    <itemref idref="pos1_1" linear="yes" />
+    <itemref idref="pos2_2" linear="yes" />
+    <itemref idref="pos3_3" linear="yes" />
+    <itemref idref="pos3_3_1" linear="yes" />
+    <itemref idref="pos3_3_2" linear="yes" />
+  </spine>
+  <guide>
+    <reference href="Text/cover.xhtml" title="封面页" type="cover" />
+    <reference href="Text/content.xhtml" title="目录" type="toc" />
+    <reference href="Text/part1.xhtml" title="开始" type="text" />
+  </guide>
+</package>

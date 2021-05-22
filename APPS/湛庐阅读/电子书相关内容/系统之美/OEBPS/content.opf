@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>系统之美：决策者的系统思考</dc:title>
+    <dc:creator>（美）梅多斯</dc:creator>
+    <dc:language>zh-CN</dc:language>
+    <dc:publisher>浙江人民出版社</dc:publisher>
+    <dc:date>2012-08</dc:date>
+    <meta content="CoverDesign" name="coverpage" />
+    <meta content="0.9.9" name="Sigil version" />
+    <dc:date opf:event="modification" xmlns:opf="http://www.idpf.org/2007/opf">2018-06-13</dc:date>
+    <dc:identifier id="BookId">978-7-213-05011-4</dc:identifier>
+  </metadata>
+  <manifest>
+    <item id="toc" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="styles" href="Styles/default.css" media-type="text/css"/>
+    <item id="cover" href="Images/Cover.jpg" media-type="image/jpeg"/>
+    <item id="coverpage" href="Text/coverpage.html" media-type="application/xhtml+xml"/>
+    <item id="front001" href="Text/front001.html" media-type="application/xhtml+xml"/>
+    <item id="front002" href="Text/front002.html" media-type="application/xhtml+xml"/>
+    <item id="front003" href="Text/front003.html" media-type="application/xhtml+xml"/>
+    <item id="front004" href="Text/front004.html" media-type="application/xhtml+xml"/>
+    <item id="front005" href="Text/front005.html" media-type="application/xhtml+xml"/>
+    <item id="front006" href="Text/front006.html" media-type="application/xhtml+xml"/>
+    <item id="chapter001" href="Text/chapter001.html" media-type="application/xhtml+xml"/>
+    <item id="chapter002" href="Text/chapter002.html" media-type="application/xhtml+xml"/>
+    <item id="chapter005" href="Text/chapter005.html" media-type="application/xhtml+xml"/>
+    <item id="chapter006" href="Text/chapter006.html" media-type="application/xhtml+xml"/>
+    <item id="chapter007" href="Text/chapter007.html" media-type="application/xhtml+xml"/>
+    <item id="chapter008" href="Text/chapter008.html" media-type="application/xhtml+xml"/>
+    <item id="chapter009" href="Text/chapter009.html" media-type="application/xhtml+xml"/>
+    <item id="chapter010" href="Text/chapter010.html" media-type="application/xhtml+xml"/>
+    <item id="chapter011" href="Text/chapter011.html" media-type="application/xhtml+xml"/>
+    <item id="chapter012" href="Text/chapter012.html" media-type="application/xhtml+xml"/>
+    <item id="chapter014" href="Text/chapter014.html" media-type="application/xhtml+xml"/>
+    <item id="chapter015" href="Text/chapter015.html" media-type="application/xhtml+xml"/>
+    <item id="chapter016" href="Text/chapter016.html" media-type="application/xhtml+xml"/>
+    <item id="chapter017" href="Text/chapter017.html" media-type="application/xhtml+xml"/>
+    <item id="back001" href="Text/back001.html" media-type="application/xhtml+xml"/>
+    <item id="back002" href="Text/back002.html" media-type="application/xhtml+xml"/>
+    <item id="image1-1" href="Images/image1-1.jpg" media-type="image/jpeg"/>
+    <item id="image100-1" href="Images/image100-1.jpg" media-type="image/jpeg"/>
+    <item id="image101-1" href="Images/image101-1.jpg" media-type="image/jpeg"/>
+    <item id="image103-1" href="Images/image103-1.jpg" media-type="image/jpeg"/>
+    <item id="image104-1" href="Images/image104-1.jpg" media-type="image/jpeg"/>
+    <item id="image105-1" href="Images/image105-1.jpg" media-type="image/jpeg"/>
+    <item id="image106-1" href="Images/image106-1.jpg" media-type="image/jpeg"/>
+    <item id="image111-1" href="Images/image111-1.jpg" media-type="image/jpeg"/>
+    <item id="image112-1" href="Images/image112-1.jpg" media-type="image/jpeg"/>
+    <item id="image113-1" href="Images/image113-1.jpg" media-type="image/jpeg"/>
+    <item id="image114-1" href="Images/image114-1.jpg" media-type="image/jpeg"/>
+    <item id="image115-1" href="Images/image115-1.jpg" media-type="image/jpeg"/>
+    <item id="image116-1" href="Images/image116-1.jpg" media-type="image/jpeg"/>
+    <item id="image119-1" href="Images/image119-1.jpg" media-type="image/jpeg"/>
+    <item id="image120-1" href="Images/image120-1.jpg" media-type="image/jpeg"/>
+    <item id="image121-1" href="Images/image121-1.jpg" media-type="image/jpeg"/>
+    <item id="image122-1" href="Images/image122-1.jpg" media-type="image/jpeg"/>
+    <item id="image123-1" href="Images/image123-1.jpg" media-type="image/jpeg"/>
+    <item id="image137-1" href="Images/image137-1.jpg" media-type="image/jpeg"/>
+    <item id="image159-1" href="Images/image159-1.jpg" media-type="image/jpeg"/>
+    <item id="image160-1" href="Images/image160-1.jpg" media-type="image/jpeg"/>
+    <item id="image163-1" href="Images/image163-1.jpg" media-type="image/jpeg"/>
+    <item id="image2-1" href="Images/image2-1.jpg" media-type="image/jpeg"/>
+    <item id="image261-1" href="Images/image261-1.jpg" media-type="image/jpeg"/>
+    <item id="image288-1" href="Images/image288-1.jpg" media-type="image/jpeg"/>
+    <item id="image289-1" href="Images/image289-1.jpg" media-type="image/jpeg"/>
+    <item id="image3-1" href="Images/image3-1.jpg" media-type="image/jpeg"/>
+    <item id="image303-1" href="Images/image303-1.jpg" media-type="image/jpeg"/>
+    <item id="image305-1" href="Images/image305-1.jpg" media-type="image/jpeg"/>
+    <item id="image305-2" href="Images/image305-2.jpg" media-type="image/jpeg"/>
+    <item id="image309-1" href="Images/image309-1.jpg" media-type="image/jpeg"/>
+    <item id="image309-2" href="Images/image309-2.jpg" media-type="image/jpeg"/>
+    <item id="image311-1" href="Images/image311-1.jpg" media-type="image/jpeg"/>
+    <item id="image311-2" href="Images/image311-2.jpg" media-type="image/jpeg"/>
+    <item id="image4-1" href="Images/image4-1.jpg" media-type="image/jpeg"/>
+    <item id="image53-1" href="Images/image53-1.jpg" media-type="image/jpeg"/>
+    <item id="image53-2" href="Images/image53-2.jpg" media-type="image/jpeg"/>
+    <item id="image54-1" href="Images/image54-1.jpg" media-type="image/jpeg"/>
+    <item id="image54-2" href="Images/image54-2.jpg" media-type="image/jpeg"/>
+    <item id="image54-3" href="Images/image54-3.jpg" media-type="image/jpeg"/>
+    <item id="image55-1" href="Images/image55-1.jpg" media-type="image/jpeg"/>
+    <item id="image56-1" href="Images/image56-1.jpg" media-type="image/jpeg"/>
+    <item id="image64-1" href="Images/image64-1.jpg" media-type="image/jpeg"/>
+    <item id="image66-1" href="Images/image66-1.jpg" media-type="image/jpeg"/>
+    <item id="image68-1" href="Images/image68-1.jpg" media-type="image/jpeg"/>
+    <item id="image68-2" href="Images/image68-2.jpg" media-type="image/jpeg"/>
+    <item id="image71-1" href="Images/image71-1.jpg" media-type="image/jpeg"/>
+    <item id="image72-1" href="Images/image72-1.jpg" media-type="image/jpeg"/>
+    <item id="image73-1" href="Images/image73-1.jpg" media-type="image/jpeg"/>
+    <item id="image78-1" href="Images/image78-1.jpg" media-type="image/jpeg"/>
+    <item id="image79-1" href="Images/image79-1.jpg" media-type="image/jpeg"/>
+    <item id="image80-1" href="Images/image80-1.jpg" media-type="image/jpeg"/>
+    <item id="image81-1" href="Images/image81-1.jpg" media-type="image/jpeg"/>
+    <item id="image84-1" href="Images/image84-1.jpg" media-type="image/jpeg"/>
+    <item id="image85-1" href="Images/image85-1.jpg" media-type="image/jpeg"/>
+    <item id="image86-1" href="Images/image86-1.jpg" media-type="image/jpeg"/>
+    <item id="image87-1" href="Images/image87-1.jpg" media-type="image/jpeg"/>
+    <item id="image88-1" href="Images/image88-1.jpg" media-type="image/jpeg"/>
+    <item id="image89-1" href="Images/image89-1.jpg" media-type="image/jpeg"/>
+    <item id="image90-1" href="Images/image90-1.jpg" media-type="image/jpeg"/>
+    <item id="image91-1" href="Images/image91-1.jpg" media-type="image/jpeg"/>
+    <item id="image92-1" href="Images/image92-1.jpg" media-type="image/jpeg"/>
+    <item id="image94-1" href="Images/image94-1.jpg" media-type="image/jpeg"/>
+    <item id="image96-1" href="Images/image96-1.jpg" media-type="image/jpeg"/>
+    <item id="image98-1" href="Images/image98-1.jpg" media-type="image/jpeg"/>
+    <item id="image99-1" href="Images/image99-1.jpg" media-type="image/jpeg"/>
+    <item id="chapter012_0001.html" href="Text/chapter012_0001.html" media-type="application/xhtml+xml"/>
+    <item id="chapter013_0001.html" href="Text/chapter013_0001.html" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="toc">
+    <itemref idref="coverpage"/>
+    <itemref idref="front001"/>
+    <itemref idref="front002"/>
+    <itemref idref="front003"/>
+    <itemref idref="front004"/>
+    <itemref idref="front005"/>
+    <itemref idref="front006"/>
+    <itemref idref="chapter001"/>
+    <itemref idref="chapter002"/>
+    <itemref idref="chapter005"/>
+    <itemref idref="chapter006"/>
+    <itemref idref="chapter007"/>
+    <itemref idref="chapter008"/>
+    <itemref idref="chapter009"/>
+    <itemref idref="chapter010"/>
+    <itemref idref="chapter011"/>
+    <itemref idref="chapter012"/>
+    <itemref idref="chapter012_0001.html"/>
+    <itemref idref="chapter013_0001.html"/>
+    <itemref idref="chapter014"/>
+    <itemref idref="chapter015"/>
+    <itemref idref="chapter016"/>
+    <itemref idref="chapter017"/>
+    <itemref idref="back001"/>
+    <itemref idref="back002"/>
+  </spine>
+  <guide>
+  </guide>
+</package>

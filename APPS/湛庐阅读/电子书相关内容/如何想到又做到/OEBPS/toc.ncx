@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="zh-cn">
+<head>
+<meta content="9787553674919" name="dtb:uid"/>
+<meta content="0" name="dtb:depth"/>
+<meta content="0" name="dtb:totalPageCount"/>
+<meta content="0" name="dtb:maxPageNumber"/>
+</head>
+<docTitle>
+<text>如何想到又做到</text>
+</docTitle>
+<docAuthor>
+<text>【美】肖恩·扬;闾佳译</text>
+</docAuthor>
+
+<navMap>
+------------------------------------------------1
+<navPoint id="level0-cov1_1" playOrder="1">
+	<navLabel>
+		<text>封面页</text>
+	</navLabel>
+		<content src="Text/cover.xhtml"/>
+</navPoint>
+
+
+------------------------------------------------2
+<navPoint id="level0-cop1_1" playOrder="2">
+	<navLabel>
+		<text>版权信息</text>
+	</navLabel>
+	<content src="Text/copyright1.xhtml"/>
+</navPoint>
+
+
+------------------------------------------------3
+<navPoint id="level0-pre1_1" playOrder="3">
+	<navLabel>
+		<text>作者简介</text>
+	</navLabel>
+	<content src="Text/preface1.xhtml"/>
+</navPoint>
+
+
+------------------------------------------------4
+<navPoint id="level0-pre2_2" playOrder="4">
+	<navLabel>
+		<text>痴迷于探索人类行为</text>
+	</navLabel>
+	<content src="Text/preface2.xhtml"/>
+</navPoint>
+
+
+------------------------------------------------5
+<navPoint id="level0-pre3_3" playOrder="5">
+	<navLabel>
+		<text>从理解行为到做出改变</text>
+	</navLabel>
+	<content src="Text/preface3.xhtml"/>
+</navPoint>
+
+
+------------------------------------------------6
+<navPoint id="level0-pre4_4" playOrder="6">
+	<navLabel>
+		<text>行为科学领域新权威</text>
+	</navLabel>
+	<content src="Text/preface4.xhtml"/>
+</navPoint>
+
+------------------------------------------------7
+<navPoint id="level0-pre5_5" playOrder="7">
+	<navLabel>
+		<text>中文版　序善于坚持的中国人，更应学会如何改变</text>
+	</navLabel>
+	<content src="Text/preface5.xhtml"/>
+</navPoint>
+
+------------------------------------------------8
+<navPoint id="level0-pre6_6" playOrder="8">
+	<navLabel>
+		<text>前言　为什么我们总是想到做不到</text>
+	</navLabel>
+	<content src="Text/preface6.xhtml"/>
+</navPoint>
+
+------------------------------------------------9
+<navPoint id="level0-content" playOrder="9">
+	<navLabel>
+		<text>目录</text>
+	</navLabel>
+	<content src="Text/content.xhtml"/>
+</navPoint>
+
+------------------------------------------------10
+<navPoint id="level0-isbn9787553674919_1" playOrder="10">
+	<navLabel>
+		<text>PART 1　7种武器背后的科学原理</text>
+	</navLabel>
+	<content src="Text/part1.xhtml"/>
+	
+		<navPoint id="level1-isbn9787553674919_1_1" playOrder="11">
+			<navLabel><text>对抗　为达成持久改变而做准备</text></navLabel>
+				<content src="Text/chapter1.xhtml"/>
+
+					<navPoint id="level2-isbn9787553674919_1_1_1_1" playOrder="12">
+						<navLabel><text>坚持到底背后的科学</text></navLabel>
+						<content src="Text/chapter1.xhtml#isbn9787553674919_1_1_1_1"/>
+					</navPoint>
+
+					<navPoint id="level2-isbn9787553674919_1_1_1_2" playOrder="13">
+						<navLabel><text>实现持久改变，只需两个步骤</text></navLabel>
+						<content src="Text/chapter1.xhtml#isbn9787553674919_1_1_1_2"/>
+					</navPoint>
+
+					<navPoint id="level2-isbn9787553674919_1_1_1_3" playOrder="14">
+						<navLabel><text>SCIENCE：认识7种心理武器</text></navLabel>
+						<content src="Text/chapter1.xhtml#isbn9787553674919_1_1_1_3"/>
+					</navPoint>
+					
+		</navPoint>
+
+</navPoint>
+
+------------------------------------------------11
+<navPoint id="level0-isbn9787553674919_2" playOrder="15">
+	<navLabel><text>PART 2　掌握7种武器的力量</text></navLabel>
+	<content src="Text/part2.xhtml"/>
+
+		<navPoint id="level1-isbn9787553674919_2_2" playOrder="16">
+			<navLabel><text>武器1　阶梯模型：整合步骤、目标与梦想</text></navLabel>
+			<content src="Text/chapter2.xhtml"/>
+
+			<navPoint id="level2-isbn9787553674919_2_2_1_1" playOrder="17">
+				<navLabel><text>要实现目标，就要先专注于迈出第一步</text></navLabel>
+				<content src="Text/chapter2.xhtml#isbn9787553674919_2_2_1_1"/>
+			</navPoint>
+			<navPoint id="level2-isbn9787553674919_2_2_1_2" playOrder="18">
+				<navLabel><text>什么是阶梯模型</text></navLabel>
+				<content src="Text/chapter2.xhtml#isbn9787553674919_2_2_1_2"/>
+			</navPoint>
+			<navPoint id="level2-isbn9787553674919_2_2_1_3" playOrder="19">
+				<navLabel><text>为什么要建立阶梯模型</text></navLabel>
+				<content src="Text/chapter2.xhtml#isbn9787553674919_2_2_1_3"/>
+			</navPoint>
+			<navPoint id="level2-isbn9787553674919_2_2_1_4" playOrder="20">
+				<navLabel><text>如何在生活中应用阶梯模型</text></navLabel>
+				<content src="Text/chapter2.xhtml#isbn9787553674919_2_2_1_4"/>
+			</navPoint>
+			<navPoint id="level2-isbn9787553674919_2_2_1_5" playOrder="21">
+				<navLabel><text>如何在商业中应用阶梯模型</text></navLabel>
+				<content src="Text/chapter2.xhtml#isbn9787553674919_2_2_1_5"/>
+			</navPoint>
+
+		</navPoint>
+
+		<navPoint id="level1-isbn9787553674919_2_3" playOrder="22">
+			<navLabel><text>武器2　社交磁力：让他人成为推动自己改变的力量</text></navLabel>
+			<content src="Text/chapter3.xhtml"/>
+			
+			<navPoint id="level2-isbn9787553674919_2_3_1_1" playOrder="23">
+				<navLabel><text>什么样的社群才具有吸引力</text></navLabel>
+				<content src="Text/chapter3.xhtml#isbn9787553674919_2_3_1_1"/>
+			</navPoint>
+
+			<navPoint id="level2-isbn9787553674919_2_3_1_2" playOrder="24">
+				<navLabel><text>成功的社群需要具备的6大要素</text></navLabel>
+				<content src="Text/chapter3.xhtml#isbn9787553674919_2_3_1_2"/>
+			</navPoint>
+
+			<navPoint id="level2-isbn9787553674919_2_3_1_3" playOrder="25">
+				<navLabel><text>什么样的社群能带来持久改变</text></navLabel>
+				<content src="Text/chapter3.xhtml#isbn9787553674919_2_3_1_3"/>
+			</navPoint>
+
+			<navPoint id="level2-isbn9787553674919_2_3_1_4" playOrder="26">
+				<navLabel><text>如何在商业中应用社交磁力</text></navLabel>
+				<content src="Text/chapter3.xhtml#isbn9787553674919_2_3_1_4"/>
+			</navPoint>
+		</navPoint>
+
+
+		<navPoint id="level1-isbn9787553674919_2_4" playOrder="27">
+			<navLabel><text>武器3　要事为先：找到对自己最重要的那件事</text></navLabel>
+			<content src="Text/chapter4.xhtml"/>
+
+				<navPoint id="level2-isbn9787553674919_2_4_1_1" playOrder="28">
+					<navLabel><text>“重要性”的意义</text></navLabel>
+					<content src="Text/chapter4.xhtml#isbn9787553674919_2_4_1_1"/>
+				</navPoint>
+
+				<navPoint id="level2-isbn9787553674919_2_4_1_2" playOrder="29">
+					<navLabel><text>人生头3件最重要的事</text></navLabel>
+					<content src="Text/chapter4.xhtml#isbn9787553674919_2_4_1_2"/>
+				</navPoint>
+
+				<navPoint id="level2-isbn9787553674919_2_4_1_3" playOrder="30">
+					<navLabel><text>如何让事情变得更重要</text></navLabel>
+				<content src="Text/chapter4.xhtml#isbn9787553674919_2_4_1_3"/>
+				</navPoint>
+
+				<navPoint id="level2-isbn9787553674919_2_4_1_4" playOrder="31">
+					<navLabel><text>如何在商业中应用要事为先</text></navLabel>
+				<content src="Text/chapter4.xhtml#isbn9787553674919_2_4_1_4"/>
+				</navPoint>
+
+				<navPoint id="level2-isbn9787553674919_2_4_1_5" playOrder="32">
+					<navLabel><text>如何在生活中应用要事为先</text></navLabel>
+					<content src="Text/chapter4.xhtml#isbn9787553674919_2_4_1_5"/>
+				</navPoint>
+
+		</navPoint>
+
+
+		<navPoint id="level1-isbn9787553674919_2_5" playOrder="33">
+			<navLabel><text>武器4　极度容易：越简单，越能坚持到底</text></navLabel>
+			<content src="Text/chapter5.xhtml"/>
+
+				<navPoint id="level2-isbn9787553674919_2_5_1_1" playOrder="34">
+					<navLabel><text>极度容易背后的心理学原理</text></navLabel>
+					<content src="Text/chapter5.xhtml#isbn9787553674919_2_5_1_1"/>
+				</navPoint>
+
+				<navPoint id="level2-isbn9787553674919_2_5_1_2" playOrder="35">
+					<navLabel><text>为什么无法让想做的事情更容易</text></navLabel>
+				<content src="Text/chapter5.xhtml#isbn9787553674919_2_5_1_2"/>
+				</navPoint>
+
+				<navPoint id="level2-isbn9787553674919_2_5_1_3" playOrder="36">
+					<navLabel><text>让事情变得更容易的方法</text></navLabel>
+				<content src="Text/chapter5.xhtml#isbn9787553674919_2_5_1_3"/>
+				</navPoint>
+	
+				<navPoint id="level2-isbn9787553674919_2_5_1_4" playOrder="37">
+					<navLabel><text>如何在商业中应用极度容易</text></navLabel>
+					<content src="Text/chapter5.xhtml#isbn9787553674919_2_5_1_4"/>
+				</navPoint>
+		</navPoint>
+
+		<navPoint id="level1-isbn9787553674919_2_6" playOrder="38">
+			<navLabel><text>武器5　行为在前：行为改变了，意识也会随之改变</text></navLabel>
+			<content src="Text/chapter6.xhtml"/>
+	
+				<navPoint id="level2-isbn9787553674919_2_6_1_1" playOrder="39">
+					<navLabel><text>行为在前是一种心理技巧</text></navLabel>
+					<content src="Text/chapter6.xhtml#isbn9787553674919_2_6_1_1"/>
+				</navPoint>
+
+				<navPoint id="level2-isbn9787553674919_2_6_1_2" playOrder="40">
+					<navLabel><text>运用4种方法，制造行为在前</text></navLabel>
+					<content src="Text/chapter6.xhtml#isbn9787553674919_2_6_1_2"/>
+				</navPoint>
+
+				<navPoint id="level2-isbn9787553674919_2_6_1_3" playOrder="41">
+					<navLabel><text>如何在生活中应用行为在前</text></navLabel>
+					<content src="Text/chapter6.xhtml#isbn9787553674919_2_6_1_3"/>
+				</navPoint>
+
+				<navPoint id="level2-isbn9787553674919_2_6_1_4" playOrder="42">
+					<navLabel><text>如何在商业中应用行为在前</text></navLabel>
+					<content src="Text/chapter6.xhtml#isbn9787553674919_2_6_1_4"/>
+				</navPoint>
+		</navPoint>
+
+
+		<navPoint id="level1-isbn9787553674919_2_7" playOrder="43">
+			<navLabel><text>武器6　致命吸引：极度诱惑能让你无法克制地坚持下去</text></navLabel>
+			<content src="Text/chapter7.xhtml"/>
+
+			<navPoint id="level2-isbn9787553674919_2_7_1_1" playOrder="44">
+				<navLabel><text>欲罢不能背后的科学原理</text></navLabel>
+				<content src="Text/chapter7.xhtml#isbn9787553674919_2_7_1_1"/>
+			</navPoint>
+
+			<navPoint id="level2-isbn9787553674919_2_7_1_2" playOrder="45">
+				<navLabel><text>什么样的奖赏才是极度诱惑</text></navLabel>
+				<content src="Text/chapter7.xhtml#isbn9787553674919_2_7_1_2"/>
+			</navPoint>
+
+			<navPoint id="level2-isbn9787553674919_2_7_1_3" playOrder="46">
+				<navLabel><text>提升吸引力的5个妙招</text></navLabel>
+				<content src="Text/chapter7.xhtml#isbn9787553674919_2_7_1_3"/>
+			</navPoint>
+
+			<navPoint id="level2-isbn9787553674919_2_7_1_4" playOrder="47">
+				<navLabel><text>如何在生活中应用致命吸引</text></navLabel>
+				<content src="Text/chapter7.xhtml#isbn9787553674919_2_7_1_4"/>
+			</navPoint>
+
+			<navPoint id="level2-isbn9787553674919_2_7_1_5" playOrder="48">
+				<navLabel><text>如何在商业中应用致命吸引</text></navLabel>
+				<content src="Text/chapter7.xhtml#isbn9787553674919_2_7_1_5"/>
+			</navPoint>
+		</navPoint>
+
+
+		<navPoint id="level1-isbn9787553674919_2_8" playOrder="49">
+			<navLabel><text>武器7　反复铭刻：把行为变成习惯，将习惯设为默认</text></navLabel>
+			<content src="Text/chapter8.xhtml"/>
+		
+			<navPoint id="level2-isbn9787553674919_2_8_1_1" playOrder="50">
+				<navLabel><text>什么是大脑的可塑性</text></navLabel>
+				<content src="Text/chapter8.xhtml#isbn9787553674919_2_8_1_1"/>
+			</navPoint>
+
+			<navPoint id="level2-isbn9787553674919_2_8_1_2" playOrder="51">
+				<navLabel><text>反复刺激能让行为变成习惯，铭刻进脑海</text></navLabel>
+				<content src="Text/chapter8.xhtml#isbn9787553674919_2_8_1_2"/>
+			</navPoint>
+
+			<navPoint id="level2-isbn9787553674919_2_8_1_3" playOrder="52">
+				<navLabel><text>如何在商业中应用反复铭刻</text></navLabel>
+				<content src="Text/chapter8.xhtml#isbn9787553674919_2_8_1_3"/>
+			</navPoint>
+	
+			<navPoint id="level2-isbn9787553674919_2_8_1_4" playOrder="53">
+				<navLabel><text>如何在生活中应用反复铭刻</text></navLabel>
+				<content src="Text/chapter8.xhtml#isbn9787553674919_2_8_1_4"/>
+			</navPoint>
+		</navPoint>
+
+</navPoint>
+
+------------------------------------------------12
+<navPoint id="level0-isbn9787553674919_3" playOrder="54">
+	<navLabel><text>PART 3　整合7种武器，升级自我</text></navLabel>
+	<content src="Text/part3.xhtml"/>
+	
+	<navPoint id="level1-isbn9787553674919_3_9" playOrder="55">
+		<navLabel><text>进攻　发挥武器的最大效能</text></navLabel>
+		<content src="Text/chapter9.xhtml"/>
+
+			<navPoint id="level2-isbn9787553674919_3_9_1_1" playOrder="56">
+				<navLabel><text>要想改变行为，不能只有一种武器</text></navLabel>
+				<content src="Text/chapter9.xhtml#isbn9787553674919_3_9_1_1"/>
+			</navPoint>
+
+			<navPoint id="level2-isbn9787553674919_3_9_1_2" playOrder="57"><navLabel>
+				<text>分清3种行为类型，是选择武器的前提</text></navLabel>
+				<content src="Text/chapter9.xhtml#isbn9787553674919_3_9_1_2"/>
+			</navPoint>
+
+			<navPoint id="level2-isbn9787553674919_3_9_1_3" playOrder="58">
+				<navLabel><text>让7种武器组合起来，发挥大于7的力量</text></navLabel>
+				<content src="Text/chapter9.xhtml#isbn9787553674919_3_9_1_3"/>
+			</navPoint>
+
+	</navPoint>
+</navPoint>
+------------------------------------------------13
+<navPoint id="level0-pos1_1" playOrder="59">
+	<navLabel><text>结语　只有想不到，没有做不到</text></navLabel>
+	<content src="Text/postscript1.xhtml"/>
+</navPoint>
+------------------------------------------------14
+<navPoint id="level0-pos2_2" playOrder="60">
+	<navLabel><text>致谢与参考文献</text></navLabel>
+	<content src="Text/postscript2.xhtml"/>
+</navPoint>
+------------------------------------------------15
+<navPoint id="level0-pos3_3" playOrder="61">
+	<navLabel><text>译者后记</text></navLabel>
+	<content src="Text/postscript3.xhtml"/>
+</navPoint>
+</navMap>
+</ncx>

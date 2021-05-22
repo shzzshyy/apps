@@ -1,0 +1,10 @@
+platform :ios, '8.0'
+target 'developDemo' do
+  pod 'AFNetworking'
+  pod 'Masonry'
+  pod 'SDWebImage'
+  pod 'MBProgressHUD'
+  pod 'Masonry'
+  pod 'MJRefresh'
+  pod 'YYModel'
+end

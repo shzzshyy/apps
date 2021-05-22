@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="ISBN" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>投资中不简单的事</dc:title>
+    <dc:creator>邱国鹭</dc:creator>
+    <dc:identifier id="ISBN">9787220106644</dc:identifier>
+    <dc:language>zh-cn</dc:language>
+    <dc:date>2018-01</dc:date>
+    <dc:publisher>四川人民出版社</dc:publisher>
+    <meta content="Formax Inc." name="generator" />
+    <meta name="cover" content="my_cover_image" />
+    <meta content="0.9.9" name="Sigil version" />
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="modification">2018-06-07</dc:date>
+  </metadata>
+  <manifest>
+    <item id="cov1_1" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="tit1_1" href="Text/titlepage1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cop1_1" href="Text/copyright1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pre1_1" href="Text/preface1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pre2_2" href="Text/preface2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_1" href="Text/part1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_1_1" href="Text/chapter1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_1_2" href="Text/chapter2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_1_3" href="Text/chapter3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_1_4" href="Text/chapter4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_1_5" href="Text/chapter5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_1_6" href="Text/chapter6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_1_7" href="Text/chapter7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_1_8" href="Text/chapter8.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_1_9" href="Text/chapter9.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_1_10" href="Text/chapter10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_2" href="Text/part2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_2_11" href="Text/chapter11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_2_12" href="Text/chapter12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_2_13" href="Text/chapter13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_2_14" href="Text/chapter14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_2_15" href="Text/chapter15.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_2_16" href="Text/chapter16.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_2_17" href="Text/chapter17.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_2_18" href="Text/chapter18.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_2_19" href="Text/chapter19.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_2_20" href="Text/chapter20.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_2_21" href="Text/chapter21.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_2_22" href="Text/chapter22.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_2_23" href="Text/chapter23.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_2_24" href="Text/chapter24.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_2_25" href="Text/chapter25.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_2_26" href="Text/chapter26.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_3" href="Text/part3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_3_27" href="Text/chapter27.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_3_28" href="Text/chapter28.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_3_29" href="Text/chapter29.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_3_30" href="Text/chapter30.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_3_31" href="Text/chapter31.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_3_32" href="Text/chapter32.xhtml" media-type="application/xhtml+xml"/>
+    <item id="isbn9787220106644_3_33" href="Text/chapter33.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pos1_1" href="Text/postscript1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pos2_2" href="Text/postscript2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="style" href="Styles/stylesheet.css" media-type="text/css"/>
+    <item id="style1" href="Styles/stylesheet-1.css" media-type="text/css"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="my_cover_image" href="Images/cover.jpg" media-type="image/jpeg"/>
+    <item id="img1" href="Images/1234.jpg" media-type="image/jpeg"/>
+    <item id="img2" href="Images/Figure-P1.jpg" media-type="image/jpeg"/>
+    <item id="img3" href="Images/Figure-P102_40234.jpg" media-type="image/jpeg"/>
+    <item id="img4" href="Images/Figure-P102_40236.jpg" media-type="image/jpeg"/>
+    <item id="img5" href="Images/Figure-P102_40238.jpg" media-type="image/jpeg"/>
+    <item id="img6" href="Images/Figure-P102_40240.jpg" media-type="image/jpeg"/>
+    <item id="img7" href="Images/Figure-P102_40242.jpg" media-type="image/jpeg"/>
+    <item id="img8" href="Images/Figure-P102_40244.jpg" media-type="image/jpeg"/>
+    <item id="img9" href="Images/Figure-P14_11826.jpg" media-type="image/jpeg"/>
+    <item id="img10" href="Images/Figure-P16_12473.jpg" media-type="image/jpeg"/>
+    <item id="img11" href="Images/Figure-P16_12475.jpg" media-type="image/jpeg"/>
+    <item id="img12" href="Images/Figure-P16_12481.jpg" media-type="image/jpeg"/>
+    <item id="img13" href="Images/Figure-P206_116388.jpg" media-type="image/jpeg"/>
+    <item id="img14" href="Images/Figure-P233.jpg" media-type="image/jpeg"/>
+    <item id="img15" href="Images/Figure-P248_87173.jpg" media-type="image/jpeg"/>
+    <item id="img16" href="Images/Figure-P248_87175.jpg" media-type="image/jpeg"/>
+    <item id="img17" href="Images/Figure-P248_87177.jpg" media-type="image/jpeg"/>
+    <item id="img18" href="Images/Figure-P248_87179.jpg" media-type="image/jpeg"/>
+    <item id="img19" href="Images/Figure-P248_87181.jpg" media-type="image/jpeg"/>
+    <item id="img20" href="Images/Figure-P248_87183.jpg" media-type="image/jpeg"/>
+    <item id="img21" href="Images/Figure-P248_87185.jpg" media-type="image/jpeg"/>
+    <item id="img22" href="Images/Figure-P257_90046.jpg" media-type="image/jpeg"/>
+    <item id="img23" href="Images/Figure-P328_109866.jpg" media-type="image/jpeg"/>
+    <item id="img24" href="Images/Figure-P333_111452.jpg" media-type="image/jpeg"/>
+    <item id="img25" href="Images/Figure-P334_112640.jpg" media-type="image/jpeg"/>
+    <item id="img26" href="Images/Figure-P335_113519.jpg" media-type="image/jpeg"/>
+    <item id="img27" href="Images/Figure-P336_116475.jpg" media-type="image/jpeg"/>
+    <item id="img28" href="Images/Figure-P336_116476.jpg" media-type="image/jpeg"/>
+    <item id="img29" href="Images/Figure-P336_116477.jpg" media-type="image/jpeg"/>
+    <item id="img30" href="Images/Figure-P336_116478.jpg" media-type="image/jpeg"/>
+    <item id="img31" href="Images/Figure-P87.jpg" media-type="image/jpeg"/>
+    <item id="img32" href="Images/Figure-T126_116369.jpg" media-type="image/jpeg"/>
+    <item id="img33" href="Images/Figure-T130_116370.jpg" media-type="image/jpeg"/>
+    <item id="img34" href="Images/Figure-T163_116374.jpg" media-type="image/jpeg"/>
+    <item id="img35" href="Images/Figure-T198_116386.jpg" media-type="image/jpeg"/>
+    <item id="img36" href="Images/Figure-T205_116387.jpg" media-type="image/jpeg"/>
+    <item id="img37" href="Images/Figure-T207_116389.jpg" media-type="image/jpeg"/>
+    <item id="img38" href="Images/Figure-T297_116437.jpg" media-type="image/jpeg"/>
+    <item id="img39" href="Images/Figure-T54_116011.jpg" media-type="image/jpeg"/>
+    <item id="img40" href="Images/p001.jpg" media-type="image/jpeg"/>
+    <item id="img41" href="Images/p002.jpg" media-type="image/jpeg"/>
+    <item id="img42" href="Images/titlepage.jpg" media-type="image/jpeg"/>
+    <item id="chapter1_0001.xhtml" href="Text/chapter1_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter1_0002.xhtml" href="Text/chapter1_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter1_0003.xhtml" href="Text/chapter1_0003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter2_0002.xhtml" href="Text/chapter2_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter2_0001.xhtml" href="Text/chapter2_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter2_0004.xhtml" href="Text/chapter2_0004.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter2_0003.xhtml" href="Text/chapter2_0003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter3_0001.xhtml" href="Text/chapter3_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter3_0002.xhtml" href="Text/chapter3_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter3_0004.xhtml" href="Text/chapter3_0004.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter3_0003.xhtml" href="Text/chapter3_0003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter4_0002.xhtml" href="Text/chapter4_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter4_0001.xhtml" href="Text/chapter4_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter4_0003.xhtml" href="Text/chapter4_0003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter6_0001.xhtml" href="Text/chapter6_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter6_0003.xhtml" href="Text/chapter6_0003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter6_0002.xhtml" href="Text/chapter6_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter7_0003.xhtml" href="Text/chapter7_0003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter7_0001.xhtml" href="Text/chapter7_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter7_0002.xhtml" href="Text/chapter7_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter7_0004.xhtml" href="Text/chapter7_0004.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter7_0005.xhtml" href="Text/chapter7_0005.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter7_0006.xhtml" href="Text/chapter7_0006.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter7_0007.xhtml" href="Text/chapter7_0007.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter7_0008.xhtml" href="Text/chapter7_0008.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter11_0001.xhtml" href="Text/chapter11_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter11_0002.xhtml" href="Text/chapter11_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter12_0002.xhtml" href="Text/chapter12_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter12_0001.xhtml" href="Text/chapter12_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter14_0001.xhtml" href="Text/chapter14_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter14_0005.xhtml" href="Text/chapter14_0005.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter14_0003.xhtml" href="Text/chapter14_0003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter14_0002.xhtml" href="Text/chapter14_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter14_0004.xhtml" href="Text/chapter14_0004.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter15_0001.xhtml" href="Text/chapter15_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter17_0001.xhtml" href="Text/chapter17_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter17_0002.xhtml" href="Text/chapter17_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter21_0001.xhtml" href="Text/chapter21_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter22_0002.xhtml" href="Text/chapter22_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter22_0004.xhtml" href="Text/chapter22_0004.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter22_0003.xhtml" href="Text/chapter22_0003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter22_0001.xhtml" href="Text/chapter22_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter24_0002.xhtml" href="Text/chapter24_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter24_0003.xhtml" href="Text/chapter24_0003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter24_0001.xhtml" href="Text/chapter24_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter25_0001.xhtml" href="Text/chapter25_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter25_0002.xhtml" href="Text/chapter25_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter25_0004.xhtml" href="Text/chapter25_0004.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter25_0003.xhtml" href="Text/chapter25_0003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter25_0005.xhtml" href="Text/chapter25_0005.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter26_0001.xhtml" href="Text/chapter26_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter26_0002.xhtml" href="Text/chapter26_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter26_0003.xhtml" href="Text/chapter26_0003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter26_0004.xhtml" href="Text/chapter26_0004.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter27_0001.xhtml" href="Text/chapter27_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter27_0002.xhtml" href="Text/chapter27_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter29_0001.xhtml" href="Text/chapter29_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter29_0003.xhtml" href="Text/chapter29_0003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter29_0002.xhtml" href="Text/chapter29_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter29_0004.xhtml" href="Text/chapter29_0004.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter30_0001.xhtml" href="Text/chapter30_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter30_0002.xhtml" href="Text/chapter30_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter30_0003.xhtml" href="Text/chapter30_0003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter31_0002.xhtml" href="Text/chapter31_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter31_0001.xhtml" href="Text/chapter31_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter32_0002.xhtml" href="Text/chapter32_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter32_0001.xhtml" href="Text/chapter32_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter32_0003.xhtml" href="Text/chapter32_0003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter33_0001.xhtml" href="Text/chapter33_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter33_0005.xhtml" href="Text/chapter33_0005.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter33_0002.xhtml" href="Text/chapter33_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter33_0004.xhtml" href="Text/chapter33_0004.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter33_0003.xhtml" href="Text/chapter33_0003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="postscript1_0003.xhtml" href="Text/postscript1_0003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="postscript1_0004.xhtml" href="Text/postscript1_0004.xhtml" media-type="application/xhtml+xml"/>
+    <item id="postscript1_0002.xhtml" href="Text/postscript1_0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="postscript1_0001.xhtml" href="Text/postscript1_0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="postscript1_0005.xhtml" href="Text/postscript1_0005.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cov1_1" linear="yes"/>
+    <itemref idref="tit1_1" linear="yes"/>
+    <itemref idref="cop1_1" linear="yes"/>
+    <itemref idref="pre1_1" linear="yes"/>
+    <itemref idref="pre2_2" linear="yes"/>
+    <itemref idref="isbn9787220106644_1" linear="yes"/>
+    <itemref idref="isbn9787220106644_1_1" linear="yes"/>
+    <itemref idref="chapter1_0001.xhtml"/>
+    <itemref idref="chapter1_0002.xhtml"/>
+    <itemref idref="chapter1_0003.xhtml"/>
+    <itemref idref="isbn9787220106644_1_2" linear="yes"/>
+    <itemref idref="chapter2_0001.xhtml"/>
+    <itemref idref="chapter2_0002.xhtml"/>
+    <itemref idref="chapter2_0003.xhtml"/>
+    <itemref idref="chapter2_0004.xhtml"/>
+    <itemref idref="isbn9787220106644_1_3" linear="yes"/>
+    <itemref idref="chapter3_0001.xhtml"/>
+    <itemref idref="chapter3_0002.xhtml"/>
+    <itemref idref="chapter3_0003.xhtml"/>
+    <itemref idref="chapter3_0004.xhtml"/>
+    <itemref idref="isbn9787220106644_1_4" linear="yes"/>
+    <itemref idref="chapter4_0001.xhtml"/>
+    <itemref idref="chapter4_0002.xhtml"/>
+    <itemref idref="chapter4_0003.xhtml"/>
+    <itemref idref="isbn9787220106644_1_5" linear="yes"/>
+    <itemref idref="isbn9787220106644_1_6" linear="yes"/>
+    <itemref idref="chapter6_0001.xhtml"/>
+    <itemref idref="chapter6_0002.xhtml"/>
+    <itemref idref="chapter6_0003.xhtml"/>
+    <itemref idref="isbn9787220106644_1_7" linear="yes"/>
+    <itemref idref="chapter7_0001.xhtml"/>
+    <itemref idref="chapter7_0002.xhtml"/>
+    <itemref idref="chapter7_0003.xhtml"/>
+    <itemref idref="chapter7_0004.xhtml"/>
+    <itemref idref="chapter7_0005.xhtml"/>
+    <itemref idref="chapter7_0006.xhtml"/>
+    <itemref idref="chapter7_0007.xhtml"/>
+    <itemref idref="chapter7_0008.xhtml"/>
+    <itemref idref="isbn9787220106644_1_8" linear="yes"/>
+    <itemref idref="isbn9787220106644_1_9" linear="yes"/>
+    <itemref idref="isbn9787220106644_1_10" linear="yes"/>
+    <itemref idref="isbn9787220106644_2" linear="yes"/>
+    <itemref idref="isbn9787220106644_2_11" linear="yes"/>
+    <itemref idref="chapter11_0001.xhtml"/>
+    <itemref idref="chapter11_0002.xhtml"/>
+    <itemref idref="isbn9787220106644_2_12" linear="yes"/>
+    <itemref idref="chapter12_0001.xhtml"/>
+    <itemref idref="chapter12_0002.xhtml"/>
+    <itemref idref="isbn9787220106644_2_13" linear="yes"/>
+    <itemref idref="isbn9787220106644_2_14" linear="yes"/>
+    <itemref idref="chapter14_0001.xhtml"/>
+    <itemref idref="chapter14_0002.xhtml"/>
+    <itemref idref="chapter14_0003.xhtml"/>
+    <itemref idref="chapter14_0004.xhtml"/>
+    <itemref idref="chapter14_0005.xhtml"/>
+    <itemref idref="isbn9787220106644_2_15" linear="yes"/>
+    <itemref idref="chapter15_0001.xhtml"/>
+    <itemref idref="isbn9787220106644_2_16" linear="yes"/>
+    <itemref idref="isbn9787220106644_2_17" linear="yes"/>
+    <itemref idref="chapter17_0001.xhtml"/>
+    <itemref idref="chapter17_0002.xhtml"/>
+    <itemref idref="isbn9787220106644_2_18" linear="yes"/>
+    <itemref idref="isbn9787220106644_2_19" linear="yes"/>
+    <itemref idref="isbn9787220106644_2_20" linear="yes"/>
+    <itemref idref="isbn9787220106644_2_21" linear="yes"/>
+    <itemref idref="chapter21_0001.xhtml"/>
+    <itemref idref="isbn9787220106644_2_22" linear="yes"/>
+    <itemref idref="chapter22_0001.xhtml"/>
+    <itemref idref="chapter22_0002.xhtml"/>
+    <itemref idref="chapter22_0003.xhtml"/>
+    <itemref idref="chapter22_0004.xhtml"/>
+    <itemref idref="isbn9787220106644_2_23" linear="yes"/>
+    <itemref idref="isbn9787220106644_2_24" linear="yes"/>
+    <itemref idref="chapter24_0001.xhtml"/>
+    <itemref idref="chapter24_0002.xhtml"/>
+    <itemref idref="chapter24_0003.xhtml"/>
+    <itemref idref="isbn9787220106644_2_25" linear="yes"/>
+    <itemref idref="chapter25_0001.xhtml"/>
+    <itemref idref="chapter25_0002.xhtml"/>
+    <itemref idref="chapter25_0003.xhtml"/>
+    <itemref idref="chapter25_0004.xhtml"/>
+    <itemref idref="chapter25_0005.xhtml"/>
+    <itemref idref="isbn9787220106644_2_26" linear="yes"/>
+    <itemref idref="chapter26_0001.xhtml"/>
+    <itemref idref="chapter26_0002.xhtml"/>
+    <itemref idref="chapter26_0003.xhtml"/>
+    <itemref idref="chapter26_0004.xhtml"/>
+    <itemref idref="isbn9787220106644_3" linear="yes"/>
+    <itemref idref="isbn9787220106644_3_27" linear="yes"/>
+    <itemref idref="chapter27_0001.xhtml"/>
+    <itemref idref="chapter27_0002.xhtml"/>
+    <itemref idref="isbn9787220106644_3_28" linear="yes"/>
+    <itemref idref="isbn9787220106644_3_29" linear="yes"/>
+    <itemref idref="chapter29_0001.xhtml"/>
+    <itemref idref="chapter29_0002.xhtml"/>
+    <itemref idref="chapter29_0003.xhtml"/>
+    <itemref idref="chapter29_0004.xhtml"/>
+    <itemref idref="isbn9787220106644_3_30" linear="yes"/>
+    <itemref idref="chapter30_0001.xhtml"/>
+    <itemref idref="chapter30_0002.xhtml"/>
+    <itemref idref="chapter30_0003.xhtml"/>
+    <itemref idref="isbn9787220106644_3_31" linear="yes"/>
+    <itemref idref="chapter31_0001.xhtml"/>
+    <itemref idref="chapter31_0002.xhtml"/>
+    <itemref idref="isbn9787220106644_3_32" linear="yes"/>
+    <itemref idref="chapter32_0001.xhtml"/>
+    <itemref idref="chapter32_0002.xhtml"/>
+    <itemref idref="chapter32_0003.xhtml"/>
+    <itemref idref="isbn9787220106644_3_33" linear="yes"/>
+    <itemref idref="chapter33_0001.xhtml"/>
+    <itemref idref="chapter33_0002.xhtml"/>
+    <itemref idref="chapter33_0003.xhtml"/>
+    <itemref idref="chapter33_0004.xhtml"/>
+    <itemref idref="chapter33_0005.xhtml"/>
+    <itemref idref="pos1_1" linear="yes"/>
+    <itemref idref="postscript1_0001.xhtml"/>
+    <itemref idref="postscript1_0002.xhtml"/>
+    <itemref idref="postscript1_0003.xhtml"/>
+    <itemref idref="postscript1_0004.xhtml"/>
+    <itemref idref="postscript1_0005.xhtml"/>
+    <itemref idref="pos2_2" linear="yes"/>
+  </spine>
+  <guide>
+    <reference type="text" title="封面页" href="Text/cover.xhtml"/>
+    <reference type="text" title="开始" href="Text/part1.xhtml"/>
+  </guide>
+</package>

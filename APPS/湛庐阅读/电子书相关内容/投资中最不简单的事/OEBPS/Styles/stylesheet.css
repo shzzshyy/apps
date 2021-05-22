@@ -1,0 +1,5166 @@
+/*fmx_ty*/ 
+@font-face { font-family:"songhei"; src: 
+local("微软雅黑"),local("黑体"),
+local("hei"),local("MYing Hei S"),/* local("MYing Hei T"),local("TBGothic"), */
+local("Heiti"),local("Heiti SC"),local("Heiti TC"),local("STHeiti"),
+local("DK-HEITI"),
+local("Sans-serif"); }
+
+@font-face { font-family:"heiti"; src: 
+local("微软雅黑"),local("黑体"),
+local("hei"),local("MYing Hei S"),/* local("MYing Hei T"),local("TBGothic"), */
+local("Helvetica"),local("Heiti"),local("Heiti SC"),local("Heiti TC"),local("STHeiti"), 
+local("DroidSansFallback"),
+local("DK-HEITI"),
+local("Sans-serif"),local("Monospace"); }
+
+@font-face { font-family:"songti"; src: 
+local("华文中宋"),local("宋体"),local("STSong"),
+local("song"),local("STSong"),local("Song S"),/* local("STBShusong"),local("Song T"),local("TBMincho"),local("HYMyeongJo"), */
+local("Songti"),local("Songti SC"),local("Songti TC"),local("Times New Roman"),
+local("DK-SONGTI"),
+local("Serif");}
+
+@font-face { font-family:"kaiti"; src: 
+local("楷体"),local("楷体_GB2312"),
+local("kai"),local("MKai PRC"),local("STKai"),local("STKaiTi"),
+local("Kaiti"),local("Kaiti SC"),local("Kaiti TC"),
+local("Georgia"),
+local("DK-KAITI");}
+
+@font-face { font-family:"fangsong"; src: 
+local("幼圆"),local("仿宋"),local("仿宋_GB2312"),
+local("yuan"),local("STYuan"),
+local("Yuanti"),local("Yuanti SC"),local("Yuanti TC"),
+local("DK-XIHEITI"),local("DK-FANGSONG");}
+
+/* 默认全书背景色 */
+body {
+    background-color:transparent;
+}
+
+/* 楷体 */
+.kaiti {
+    font-family: "kaiti";
+}
+
+/* 仿宋 */
+.fangsong {
+    font-family: "fangsong";
+}
+
+/* 宋体 */
+.songti {
+    font-family: "songti";
+}
+
+/* 宋黑 */
+.songhei {
+    font-family: "songhei";
+}
+
+/* 黑体 */
+.heiti{
+    font-family: "heiti";
+}
+
+/* 小字 */
+span.content-word-small {
+    font-size: 0.7em;
+    line-height: 1.2em;
+
+}
+
+
+/* 重点-反色 */
+span.content-word-light {
+    color: #ffffff;
+    background-color: #3fadc8;
+    padding: 0.1em 0.2em;
+}
+/* 标红 颜色可改 */
+.strike{color:#CC0000;text-decoration:none;}
+/* 橙色高亮  颜色可改 */
+.highlight{background:#fcc444;}
+
+/* 目录链接改成黑色 
+a{color:black}*/
+/* 黑体 */
+
+
+/* 下划线 */
+span.underline{text-decoration:underline;}
+/* 下划虚线 */
+span.dash{text-decoration:none;border-bottom-width:dashed 2px;}
+/* 下划点线 */
+span.dot{text-decoration:none;border-bottom-width:dotted 3px;}
+/* 删除线 */
+span.del{text-decoration:line-through;}
+/* 段落首字放大*/
+span.dropcap {
+float: left; 
+font-size: 1.8em; 
+margin-right: 0.3em; 
+margin-bottom: 0em;
+margin-top:0em;
+line-height:1.6em; 
+}
+sup{
+	margin:0em;
+font-size:0.6em;
+vertical-align:super;
+}
+sub{
+	margin:0em;
+font-size:0.6em;
+	vertical-align: sub;
+}
+/* 小号字 */
+.smallcaps{
+font-size:0.8em;
+margin-top:1em;
+text-indent:0;
+line-height:1.2em;
+}
+/* 大号字 */
+.big{
+font-size:1.1em;
+margin-top:0em;
+text-indent:0;
+line-height:2.2em;
+}
+
+.color-red {
+	color: red;
+}
+.color-green {
+	color: green;
+}
+.color-blue {
+	color: blue;
+}
+/*---拆分标题--*/
+h1.splittitle
+   {
+          margin-top: 2em;
+          margin-bottom: 1em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.7em;
+          font-family: "heiti";
+          color: #000000;
+   }
+   
+/*--特殊标题--*/
+h2.special{
+          margin-top: 0.5em;
+          margin-bottom: 1em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+		  background-color: #7FFF00;
+
+}   
+/*---篇-左--*/
+h1.parttitle
+   {
+          margin-top: 2em;
+          margin-bottom: 1em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.7em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---篇子标题--*/
+h2.subparttitletitle
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+   
+   
+/*---篇-中--*/
+h1.parttitle-c
+   {
+          margin-top: 2em;
+          margin-bottom: 1em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.7em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---篇-右--*/
+h1.parttitle-r
+   {
+          margin-top: 2em;
+          margin-bottom: 1em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.7em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---章-左--*/
+h1.chaptertitle
+   {
+          margin-top: 1.4em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.4em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---章-中--*/
+h1.chaptertitle-c
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---章-右--*/
+h1.chaptertitle-r
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.4em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---章子标题--*/
+h2.subchap
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.5em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---前言标题-左--*/
+h1.prefacetitle
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---前言标题-中--*/
+h1.prefacetitle-c
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---前言标题-右--*/
+h1.prefacetitle-r
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---后记标题-左--*/
+h1.backtitle
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---后记标题-中--*/
+h1.backtitle-c
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---后记标题-右--*/
+h1.backtitle-r
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+
+/*---附录标题-左--*/
+h1.appxtitle
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---附录标题-中--*/
+h1.appxtitle-c
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---附录标题-右--*/
+h1.appxtitle-r
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+
+/*---索引（index）标题-左--*/
+h1.idxtitle
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---索引（index）标题-中--*/
+h1.idxtitle-c
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---索引（index）标题-右--*/
+h1.idxtitle-r
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+
+/*---独立参考文献-左--*/
+h1.reftitle
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---独立参考文献-中--*/
+h1.reftitle-c
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+
+/*---Glossary标题-左--*/
+h1.glstitle
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---Glossary标题-中--*/
+h1.glstitle-c
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+
+
+/*---版权标题-中--*/
+h1.copytitle
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+
+/*---目录表标题-中--*/
+h1.toctitle
+   {
+          margin-top: 1.6em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---小节标题-左--*/
+h2.sectitle
+   {
+          margin-top: 1.2em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.5em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---小节标题-中--*/
+h2.sectitle-c
+   {
+          margin-top: 1.2em;
+          margin-bottom: 0em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.5em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---小节标题-右--*/
+h2.sectitle-r
+   {
+          margin-top: 1.2em;
+          margin-bottom: 0em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.5em;
+          font-family: "heiti";
+          color: #000000;
+   }
+
+/*---标题1--*/
+h3.txtheading-1
+   {
+          margin-top: 1.2em;
+          margin-bottom: 1.2em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.3em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---标题2--*/
+h4.txtheading-2
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.2em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---标题3--*/
+h5.txtheading-3
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.1em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---标题4--*/
+h6.txtheading-4
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---标题5--*/
+h6.txtheading-5
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "heiti";
+          color: #000000;
+   }   
+   /*---标题1-中--*/
+h3.txtheading-1-c
+   {
+          margin-top: 1em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.3em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---标题1-右--*/
+h3.txtheading-1-r
+   {
+          margin-top: 1.2em;
+          margin-bottom: 1.2em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.3em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---标题2-中--*/
+h4.txtheading-2-c
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.2em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---标题2-右--*/
+h4.txtheading-2-r
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.2em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---标题3-中--*/
+h5.txtheading-3-c
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.1em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---标题3-右--*/
+h5.txtheading-3-r
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.1em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---标题4-中--*/
+h6.txtheading-4-c
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---标题4-右--*/
+h6.txtheading-4-r
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---标题5-中--*/
+h6.txtheading-5-c
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---标题5-右--*/
+h6.txtheading-5-r
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "heiti";
+          color: #000000;
+   }
+/*---诗歌1级标题--*/
+h6.poem-title-1
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: left;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.2em;
+          font-family: "kaiti";
+          color: #000000;
+   }
+/*---诗歌1级标题-中--*/
+h6.poem-title-1-c
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.2em;
+          font-family: "kaiti";
+          color: #000000;
+   }
+/*---诗歌1级标题-右--*/
+h6.poem-title-1-r
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: right;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.2em;
+          font-family: "kaiti";
+          color: #000000;
+   }
+
+/*---诗歌2级标题--*/
+h6.poem-title-2
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: left;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.1em;
+          font-family: "kaiti";
+          color: #000000;
+   }
+/*---诗歌2级标题-中--*/
+h6.poem-title-2-c
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.1em;
+          font-family: "kaiti";
+          color: #000000;
+   }
+/*---诗歌2级标题-右--*/
+h6.poem-title-2-r
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: center;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.1em;
+          font-family: "kaiti";
+          color: #000000;
+   }
+
+/*---清单1级标题--*/
+h4.list-title-1
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.1em;
+          font-family: "songti";
+          color: #000000;
+   }
+/*---清单1级标题-中--*/
+h4.list-title-1-c
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.1em;
+          font-family: "songti";
+          color: #000000;
+   }   
+/*---清单2级标题--*/
+h5.list-title-2
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: left;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.1em;
+          font-family: "songti";
+          color: #000000;
+   }
+/*---清单3级标题--*/
+h6.list-title-3
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: left;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+   }   
+/*---引证文本框1级标题--*/
+h4.block-title-1
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: left;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1.2em;
+          font-family: "kaiti";
+          color: #000000;
+   }
+/*---引证文本框1级标题-中--*/
+h4.block-title-1-c
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.2em;
+          font-family: "kaiti";
+          color: #000000;
+   }
+/*---引证文本框1级标题-右--*/
+h4.block-title-1-r
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: right;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1.2em;
+          font-family: "kaiti";
+          color: #000000;
+   }
+/*---引证文本框2级标题--*/
+h5.block-title-2
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: left;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1.1em;
+          font-family: "kaiti";
+          color: #000000;
+   }
+/*---引证文本框2级标题-中--*/
+h5.block-title-2-c
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1.1em;
+          font-family: "kaiti";
+          color: #000000;
+   }
+/*---引证文本框2级标题-右--*/
+h5.block-title-2-r
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: right;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1.1em;
+          font-family: "kaiti";
+          color: #000000;
+   }
+/*---引证文本框3级标题--*/
+h6.block-title-3
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+   }
+/*---引证文本框3级标题-中--*/
+h6.block-title-3-c
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+   }
+/*---引证文本框3级标题-右--*/
+h6.block-title-3-r
+   {
+          margin-top: 1.1em;
+          margin-bottom: 1.1em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+   }
+/*---居左段--*/
+p.bodyContent-1-l
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级居左段--*/
+p.bodyContent-2-l
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: left;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+      
+   
+ 
+/*---居中段--*/
+p.bodyContent-1-c
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+   
+/*---居右段--*/
+p.bodyContent-1-r
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+/*---缩进一级居右段--*/
+p.bodyContent-2-r
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+        
+   
+/*---居左楷体段--*/
+p.bodyContent-1-kaiti-l
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级居左楷体段--*/
+p.bodyContent-2-kaiti-l
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: left;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+      
+   
+ 
+/*---居中楷体段--*/
+p.bodyContent-1-kaiti-c
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+   
+/*---居右楷体段--*/
+p.bodyContent-1-kaiti-r
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }      
+   
+/*---缩进一级居右楷体段--*/
+p.bodyContent-2-kaiti-r
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+      
+   
+/*---居左黑体段--*/
+p.bodyContent-1-heiti-l
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "heiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级居左黑体段--*/
+p.bodyContent-2-heiti-l
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: left;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "heiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+      
+   
+ 
+/*---居中黑体段--*/
+p.bodyContent-1-heiti-c
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "heiti";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+   
+/*---居右黑体段--*/
+p.bodyContent-1-heiti-r
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "heiti";
+          color: #000000;
+          line-height: 1.5em;
+   }      
+   
+/*---缩进一级居右黑体段--*/
+p.bodyContent-2-heiti-r
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "heiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+
+   
+/*---正常段--*/
+p.bodyContent-1
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+   
+   
+/*---正常上间距段--*/
+p.bodyContent-1-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---正常下间距段--*/
+p.bodyContent-1-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+/*---正常上下间距段--*/
+p.bodyContent-1-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+/*---齐头段--*/
+p.noindent-bodyContent-1
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+   
+/*---齐头上间距段--*/
+p.noindent-bodyContent-1-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---齐头下间距段--*/
+p.noindent-bodyContent-1-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+/*---齐头上下间距段--*/
+p.noindent-bodyContent-1-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---倒悬段--*/
+p.hang-bodyContent-1
+   {          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---倒悬上间距段--*/
+p.hang-bodyContent-1-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---倒悬下间距段--*/
+p.hang-bodyContent-1-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---倒悬上下间距段--*/
+p.hang-bodyContent-1-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+
+/*---缩进一级正常段--*/
+p.bodyContent-2
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级正常上间距段--*/
+p.bodyContent-2-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级正常下间距段--*/
+p.bodyContent-2-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级正常上下间距段--*/
+p.bodyContent-2-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级齐头段--*/
+p.noindent-bodyContent-2
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 1em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+   
+/*---缩进一级齐头上间距段--*/
+p.noindent-bodyContent-2-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+
+/*---缩进一级齐头下间距段--*/
+p.noindent-bodyContent-2-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级齐头上下间距段--*/
+p.noindent-bodyContent-2-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+
+/*---缩进一级倒悬段--*/
+p.hang-bodyContent-2
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+   
+/*---缩进一级倒悬上间距段--*/
+p.hang-bodyContent-2-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级倒悬下间距段--*/
+p.hang-bodyContent-2-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级倒悬上下间距段--*/
+p.hang-bodyContent-2-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+/*---楷体段--*/
+p.bodyContent-1-kaiti
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---楷体上间距段--*/
+p.bodyContent-1-kaiti-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+   
+/*---楷体下间距段--*/
+p.bodyContent-1-kaiti-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---楷体上下间距段--*/
+p.bodyContent-1-kaiti-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级楷体段--*/
+p.bodyContent-2-kaiti
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+/*---缩进一级楷体上间距段--*/
+p.bodyContent-2-kaiti-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级楷体下间距段--*/
+p.bodyContent-2-kaiti-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级楷体上下间距段--*/
+p.bodyContent-2-kaiti-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---楷体齐头段--*/
+p.noindent-bodyContent-1-kaiti
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+/*---楷体齐头上间距段--*/
+p.noindent-bodyContent-1-kaiti-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---楷体齐头下间距段--*/
+p.noindent-bodyContent-1-kaiti-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---楷体齐头上下间距段--*/
+p.noindent-bodyContent-1-kaiti-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---楷体倒悬段--*/
+p.hang-bodyContent-1-kaiti
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---楷体倒悬上间距段--*/
+p.hang-bodyContent-1-kaiti-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---楷体倒悬下间距段--*/
+p.hang-bodyContent-1-kaiti-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---楷体倒悬上下间距段--*/
+p.hang-bodyContent-1-kaiti-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+/*---缩进一级楷体齐头段--*/
+p.noindent-bodyContent-2-kaiti
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+/*---缩进一级楷体齐头上间距段--*/
+p.noindent-bodyContent-2-kaiti-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级楷体齐头下间距段--*/
+p.noindent-bodyContent-2-kaiti-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级楷体齐头上下间距段--*/
+p.noindent-bodyContent-2-kaiti-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级楷体倒悬段--*/
+p.hang-bodyContent-2-kaiti
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级楷体倒悬段上间距段--*/
+p.hang-bodyContent-2-kaiti-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级楷体倒悬段下间距段--*/
+p.hang-bodyContent-2-kaiti-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级楷体倒悬段上下间距段--*/
+p.hang-bodyContent-2-kaiti-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---仿宋正常段--*/
+p.bodyContent-1-fangsong
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+/*---仿宋上间距正常段--*/
+p.bodyContent-1-fangsong-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---仿宋下间距正常段--*/
+p.bodyContent-1-fangsong-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---仿宋上下间距正常段--*/
+p.bodyContent-1-fangsong-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---仿宋齐头段--*/
+p.noindent-bodyContent-1-fangsong
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+/*---仿宋上间距齐头段--*/
+p.noindent-bodyContent-1-fangsong-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---仿宋下间距齐头段--*/
+p.noindent-bodyContent-1-fangsong-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---仿宋上下间距齐头段--*/
+p.noindent-bodyContent-1-fangsong-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级仿宋正常段--*/
+p.bodyContent-2-fangsong
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+/*---缩进一级仿宋上间距正常段--*/
+p.bodyContent-2-fangsong-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级仿宋下间距正常段--*/
+p.bodyContent-2-fangsong-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级仿宋上下间距正常段--*/
+p.bodyContent-2-fangsong-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级仿宋齐头段--*/
+p.noindent-bodyContent-2-fangsong
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+   }
+   
+/*---缩进一级仿宋上间距齐头段--*/
+p.noindent-bodyContent-2-fangsong-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级仿宋下间距齐头段--*/
+p.noindent-bodyContent-2-fangsong-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级仿宋上下间距齐头段--*/
+p.noindent-bodyContent-2-fangsong-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+   }
+   /*---引证正常段--*/
+p.quoteContent-1
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---引证上间距正常段--*/
+p.quoteContent-1-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---引证下间距正常段--*/
+p.quoteContent-1-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---引证上下间距正常段--*/
+p.quoteContent-1-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+/*---齐头引证段--*/
+p.noindent-quoteContent-1
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+/*---齐头引证上间距段--*/
+p.noindent-quoteContent-1-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---齐头引证下间距段--*/
+p.noindent-quoteContent-1-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---齐头引证上下间距段--*/
+p.noindent-quoteContent-1-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级齐头引证段--*/
+p.noindent-quoteContent-2
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 4em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+/*---缩进一级齐头引证上间距段--*/
+p.noindent-quoteContent-2-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 4em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级齐头引证下间距段--*/
+p.noindent-quoteContent-2-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 4em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级齐头引证上下间距段--*/
+p.noindent-quoteContent-2-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 4em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级引证正常段--*/
+p.quoteContent-2
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 4em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级引证正常上间距段--*/
+p.quoteContent-2-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 4em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级引证正常下间距段--*/
+p.quoteContent-2-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 4em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级引证正常上下间距段--*/
+p.quoteContent-2-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 4em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+   
+   
+/*---引证倒悬段--*/
+p.hang-quoteContent-1
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+/*---倒悬引证上间距段--*/
+p.hang-quoteContent-1-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---倒悬引证下间距段--*/
+p.hang-quoteContent-1-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---倒悬引证上下间距段--*/
+p.hang-quoteContent-1-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级倒悬引证段--*/
+p.hang-quoteContent-2
+   {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 4em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+/*---缩进一级倒悬引证上间距段--*/
+p.hang-quoteContent-2-top
+   {
+          margin-top: 1.3em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 4em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级倒悬引证下间距段--*/
+p.hang-quoteContent-2-bot
+   {
+          margin-top: 0.5em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 4em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }
+/*---缩进一级倒悬引证上下间距段--*/
+p.hang-quoteContent-2-topbot
+   {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 4em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+   }   
+   
+
+/* 诗歌一级居左段 */
+p.poemContent-1
+  {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+/* 诗歌一级居左段--上间距 */
+p.poemContent-1-margin
+  {
+          margin-top: 1em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+
+/* 诗歌一级居左段--首行 */
+p.poemContent-1-top
+  {
+          margin-top: 1.3em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+
+/* 诗歌一级居左段--末行 */
+p.poemContent-1-bot
+  {
+          margin-top: 0em;
+          margin-bottom: 1.3em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+/* 诗歌一级居左段--独段 */
+p.poemContent-1-topbot
+  {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+
+/* 诗歌二级居左段 */ 
+p.poemContent-2
+ {	      margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ 
+}
+/* 诗歌二级居左段--上间距 */
+p.poemContent-2-margin
+  {
+          margin-top: 1em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+/* 诗歌二级居左段--首行 */
+p.poemContent-2-top
+  {
+          margin-top: 1.3em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+
+/* 诗歌二级居左段--末行 */
+p.poemContent-2-bot
+  {
+          margin-top: 0em;
+          margin-bottom: 1.3em;
+          text-align: left;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+/* 诗歌二级居左段--独段 */
+p.poemContent-2-topbot
+  {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: left;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+
+
+
+/* 诗歌三级居左段 */ 
+p.poemContent-3
+ {	      margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ 
+}
+/* 诗歌三级居左段--上间距 */
+p.poemContent-3-margin
+  {
+          margin-top: 1em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+
+/* 诗歌三级居左段--首行 */
+p.poemContent-3-top
+  {
+          margin-top: 1.3em;
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+
+/* 诗歌三级居左段--末行 */
+p.poemContent-3-bot
+  {
+          margin-top: 0em;
+          margin-bottom: 1.3em;
+          text-align: left;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+/* 诗歌三级居左段--独段 */
+p.poemContent-3-topbot
+  {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: left;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+
+/* 诗歌一级居中段 */
+p.poemContent-1-c
+  {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+
+/* 诗歌一级居中段--上间距 */
+p.poemContent-1-c-margin
+  {
+          margin-top: 1em;
+          margin-bottom: 0em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+
+
+/* 诗歌一级居中段--首行 */
+p.poemContent-1-c-top
+  {
+          margin-top: 1.3em;
+          margin-bottom: 0em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+/* 诗歌一级居中段--末行 */
+p.poemContent-1-c-bot
+  {
+          margin-top: 0em;
+          margin-bottom: 1.3em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+/* 诗歌一级居中段--独段 */
+p.poemContent-1-c-topbot
+  {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+
+/* 诗歌二级居中段 */ 
+p.poemContent-2-c
+ {	      margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ 
+}
+/* 诗歌二级居中段--上间距 */
+p.poemContent-2-c-margin
+  {
+          margin-top: 1em;
+          margin-bottom: 0em;
+          text-align: center;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+
+/* 诗歌二级居中段--首行 */
+p.poemContent-2-c-top
+  {
+          margin-top: 1.3em;
+          margin-bottom: 0em;
+          text-align: center;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+/* 诗歌二级居中段--末行 */
+p.poemContent-2-c-bot
+  {
+          margin-top: 0em;
+          margin-bottom: 1.3em;
+          text-align: center;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+/* 诗歌一级居中段--独段 */
+p.poemContent-2-c-topbot
+  {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: center;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+
+/* 诗歌三级居中段 */ 
+p.poemContent-3-c
+ {        margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ 
+}
+
+/* 诗歌三级居中段--上间距 */
+p.poemContent-3-c-margin
+  {
+          margin-top: 1em;
+          margin-bottom: 0em;
+          text-align: center;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+
+
+/* 诗歌三级居中段--首行 */
+p.poemContent-3-c-top
+  {
+          margin-top: 1.3em;
+          margin-bottom: 0em;
+          text-align: center;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+/* 诗歌三级居中段--末行 */
+p.poemContent-3-c-bot
+  {
+          margin-top: 0em;
+          margin-bottom: 1.3em;
+          text-align: center;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+/* 诗歌三级居中段--独段 */
+p.poemContent-3-c-topbot
+  {
+          margin-top: 1.3em;
+          margin-bottom: 1.3em;
+          text-align: center;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ }
+
+/* box框 */ 
+div.boxBlock
+{         margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+		  padding-top: 0.5em;
+		  padding-bottom: 0.5em;
+		  padding-left: 0.5em;
+		  padding-right: 0.5em;
+     	  border-top-width: 1px;
+		  border-bottom-width: 1px;
+		  border-left-width: 1px;
+		  border-right-width: 1px;
+		  border-radius: 0em;
+		  border-style: solid;
+		  border-color:#000000;
+		  background-color: #FFFFFF;
+           
+}
+
+
+/* box框正常段落 */ 
+p.boxContent-1
+{         margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ 
+}
+/* box框居右段落 */ 
+p.boxContent-1-r
+{         margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ 
+}
+
+/* 缩进一级box框正常段落 */ 
+p.boxContent-2
+{         margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ 
+}
+/* 缩进二级box框正常段落 */ 
+p.boxContent-3
+{         margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ 
+}
+
+/* box框齐头段落 */ 
+p.noindent-boxContent-1
+{         margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ 
+}
+
+/* 缩进一级box框齐头段落 */ 
+p.noindent-boxContent-2
+{         margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ 
+}
+/* 缩进二级box框齐头段落 */ 
+p.noindent-boxContent-3
+{         margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ 
+}
+
+/* 图号图题 */ 
+p.tuti
+{         margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 0.9em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ 
+}
+/* 图注 */ 
+p.tuzhu
+{         margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 0.8em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ 
+}
+/* 表号表题 */ 
+p.biaoti
+{         margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 0.9em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ 
+}
+/* 表注 */ 
+p.biaozhu
+{         margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 0.8em;
+          font-family: "kaiti";
+          color: #000000;
+          line-height: 1.5em;
+ 
+}
+
+/*--一级签名段--*/         
+p.signContent-1
+{
+          margin-top: 0em;  
+          margin-bottom: 0em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}
+/*--一级居左签名段--*/         
+p.signContent-1-l
+{
+          margin-top: 0em;  
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}
+
+/*--上间距签名段--*/         
+p.signContent-1-top
+{
+          margin-top: 1.3em;  
+          margin-bottom: 0em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}
+/*--上间距一级居左签名段--*/         
+p.signContent-1-l-top
+{
+          margin-top: 1.3em;  
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}
+
+/*--下间距签名段--*/         
+p.signContent-1-bot
+{
+          margin-top: 0em;  
+          margin-bottom: 1.3em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}
+/*--下间距一级居左签名段--*/         
+p.signContent-1-l-bot
+{
+          margin-top: 0em;  
+          margin-bottom: 1.3em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}
+
+/*--上下间距签名段--*/         
+p.signContent-1-topbot
+{
+          margin-top: 0em;  
+          margin-bottom: 1.3em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}
+/*--上下间距一级居左签名段--*/         
+p.signContent-1-l-topbot
+{
+          margin-top: 0em;  
+          margin-bottom: 1.3em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}
+
+/*--二级签名段--*/         
+p.signContent-2
+{
+          margin-top: 0em;  
+          margin-bottom: 0em;
+          text-align: right;
+          margin-left: 0em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}
+/*--二级居左签名段--*/         
+p.signContent-2-l
+{
+          margin-top: 0em;  
+          margin-bottom: 0em;
+          text-align: left;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}
+/*--脚注段--*/         
+p.fnContent-1{
+		  margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 0.9em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}
+/*--脚注多段--*/         
+p.fnContent-2{
+		  margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 0.9em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}
+
+/*--尾注段--*/         
+p.enContent-1{
+		  margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}
+/*--尾注多段--*/         
+p.enContent-2{
+		  margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}
+
+
+/*--书信称谓--*/         
+ 
+p.letter{
+	 margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: left;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}
+/*--书信正常段落--*/
+p.letterContent-1{
+	 margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--上间距书信正常段落--*/
+p.letterContent-1-top{
+	 margin-top: 1.3em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--下间距书信正常段落--*/
+p.letterContent-1-bot{
+	 margin-top: 0.5em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--上下间距书信正常段落--*/
+p.letterContent-1-topbot{
+	 margin-top: 1.3em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+
+/*--书信齐头段落--*/
+p.noindent-letterContent-1{
+	 margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--上间距书信齐头段落--*/
+p.noindent-letterContent-1-top{
+	 margin-top: 1.3em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--下间距书信齐头段落--*/
+p.noindent-letterContent-1-bot{
+	 margin-top: 0.5em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--上下间距书信齐头段落--*/
+p.noindent-letterContent-1-topbot{
+	 margin-top: 1.3em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--书信倒悬段落--*/
+p.hang-letterContent-1{
+	 margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 2em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--上间距书信倒悬段落--*/
+p.hang-letterContent-1-top{
+	 margin-top: 1.3em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 2em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--下间距书信倒悬段落--*/
+p.hang-letterContent-1-bot{
+	 margin-top: 0.5em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 2em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--上下间距书信倒悬段落--*/
+p.hang-letterContent-1-topbot{
+	 margin-top: 1.3em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 2em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+
+/*--二级书信正常段落--*/
+p.letterContent-2{
+	 margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 2em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--二级上间距书信正常段落--*/
+p.letterContent-2-top{
+	 margin-top: 1.3em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 2em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--二级下间距书信正常段落--*/
+p.letterContent-2-bot{
+	 margin-top: 0.5em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 2em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--二级上下间距书信正常段落--*/
+p.letterContent-2-topbot{
+	 margin-top: 1.3em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 2em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+
+/*--二级书信齐头段落--*/
+p.noindent-letterContent-2{
+	 margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--二级上间距书信齐头段落--*/
+p.noindent-letterContent-2-top{
+	 margin-top: 1.3em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--二级下间距书信齐头段落--*/
+p.noindent-letterContent-2-bot{
+	 margin-top: 0.5em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--二级上下间距书信齐头段落--*/
+p.noindent-letterContent-2-topbot{
+	 margin-top: 1.3em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 2em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--二级书信倒悬段落--*/
+p.hang-letterContent-2{
+	 margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 6em;
+          margin-right: 2em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--二级上间距书信倒悬段落--*/
+p.hang-letterContent-2-top{
+	 margin-top: 1.3em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 6em;
+          margin-right: 2em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--二级下间距书信倒悬段落--*/
+p.hang-letterContent-2-bot{
+	 margin-top: 0.5em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 6em;
+          margin-right: 2em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--二级上下间距书信倒悬段落--*/
+p.hang-letterContent-2-topbot{
+	 margin-top: 1.3em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 6em;
+          margin-right: 2em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+
+
+/*--书信签名--*/
+p.letterSign{
+	 margin-top: 0em;  
+          margin-bottom: 0em;
+          text-align: right;
+          margin-left: 2em;
+          margin-right: 3em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--书信签名上间距--*/
+p.letterSign-top{
+	 margin-top: 1.3em;  
+          margin-bottom: 0em;
+          text-align: right;
+          margin-left: 2em;
+          margin-right: 3em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--书信签名下间距--*/
+p.letterSign-bot{
+	 margin-top: 0em;  
+          margin-bottom: 1.3em;
+          text-align: right;
+          margin-left: 2em;
+          margin-right: 3em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--书信签名上下间距--*/
+p.letterSign-topbot{
+	 margin-top: 1.3em;  
+          margin-bottom: 1.3em;
+          text-align: right;
+          margin-left: 2em;
+          margin-right: 3em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "fangsong";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--清单一级--*/
+ul.ulistContent-1{
+	 margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 1em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}  
+
+/*--清单二级--*/
+ul.ulistContent-2{
+	 margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}  
+
+/*--清单二级上间距--*/
+p.listContent-2-top{
+	 margin-top: 1.3em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "songti";
+		  color: #000000;
+          line-height: 1.5em;
+}  
+/*--清单二级下间距--*/
+p.listContent-2-bot{
+	 margin-top: 0em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "songti";
+		  color: #000000;
+          line-height: 1.5em;
+}  
+/*--清单二级上下间距--*/
+p.listContent-2-topbot{
+	 margin-top: 1.3em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: -2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}  
+
+
+/*--清单三级--*/
+p.listContent-3{
+	 margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 6em;
+          margin-right: 0em;
+          text-indent: -3em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--清单三级上间距--*/
+p.listContent-3-top{
+	 margin-top: 1.3em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 6em;
+          margin-right: 0em;
+          text-indent: -3em;
+          font-size: 1em;
+          font-family: "songti";
+		  color: #000000;
+          line-height: 1.5em;
+}  
+/*--清单三级下间距--*/
+p.listContent-3-bot{
+	 margin-top: 0em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 6em;
+          margin-right: 0em;
+          text-indent: -3em;
+          font-size: 1em;
+          font-family: "songti";
+		  color: #000000;
+          line-height: 1.5em;
+}  
+/*--清单三级上下间距--*/
+p.listContent-3-topbot{
+	 margin-top: 1.3em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 6em;
+          margin-right: 0em;
+          text-indent: -3em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+} 
+
+
+/*--版权段落一级--*/
+p.copyContent-1{
+	 margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--版权段落一级上间距--*/
+p.copyContent-1-top{
+	 margin-top: 1.3em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "songti";
+		  color: #000000;
+          line-height: 1.5em;
+}  
+/*--版权段落一级下间距--*/
+p.copyContent-1-bot{
+	 margin-top: 0em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "songti";
+		  color: #000000;
+          line-height: 1.5em;
+}  
+/*--版权段落一级上下间距--*/
+p.copyContent-1-topbot{
+	 margin-top: 1.3em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}  
+
+/*--版权段落二级--*/
+p.copyContent-2{
+	 margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--版权段落二级上间距--*/
+p.copyContent-2-top{
+	 margin-top: 1.3em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "songti";
+		  color: #000000;
+          line-height: 1.5em;
+}  
+/*--版权段落二级下间距--*/
+p.copyContent-2-bot{
+	 margin-top: 0em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "songti";
+		  color: #000000;
+          line-height: 1.5em;
+}  
+/*--版权段落二级上下间距--*/
+p.copyContent-2-topbot{
+	 margin-top: 1.3em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}  
+
+
+/*--齐头段落一级--*/
+p.noindent-copyContent-1{
+	 margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--齐头段落一级上间距--*/
+p.noindent-copyContent-1-top{
+	 margin-top: 1.3em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+		  color: #000000;
+          line-height: 1.5em;
+}  
+/*--齐头段落一级下间距--*/
+p.noindent-copyContent-1-bot{
+	 margin-top: 0em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+		  color: #000000;
+          line-height: 1.5em;
+}  
+/*--齐头段落一级上下间距--*/
+p.noindent-copyContent-1-topbot{
+	 margin-top: 1.3em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}  
+
+/*--齐头段落二级--*/
+p.noindent-copyContent-2{
+	 margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--齐头段落二级上间距--*/
+p.noindent-copyContent-2-top{
+	 margin-top: 1.3em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+		  color: #000000;
+          line-height: 1.5em;
+}  
+/*--齐头段落二级下间距--*/
+p.noindent-copyContent-2-bot{
+	 margin-top: 0em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+		  color: #000000;
+          line-height: 1.5em;
+}  
+/*--齐头段落二级上下间距--*/
+p.noindent-copyContent-2-topbot{
+	 margin-top: 1.3em;  
+          margin-bottom: 1.3em;
+          text-align: justify;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--版权居中段落一级--*/
+p.copyContent-1-c{
+	 margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}  
+/*--版权居中段落一级上间距--*/
+p.copyContent-1-c-top{
+	 margin-top: 1.3em;  
+          margin-bottom: 0.5em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+		  color: #000000;
+          line-height: 1.5em;
+}  
+/*--版权居中段落一级下间距--*/
+p.copyContent-1-c-bot{
+	 margin-top: 0em;  
+          margin-bottom: 1.3em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+		  color: #000000;
+          line-height: 1.5em;
+}  
+/*--版权居中段落一级上下间距--*/
+p.copyContent-1-c-topbot{
+	 margin-top: 1.3em;  
+          margin-bottom: 1.3em;
+          text-align: center;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.5em;
+}  
+
+/*--特殊段落--*/
+p.special{
+	 margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+		  background-color: #7FFF00;
+          line-height: 1.5em;
+} 
+
+/*--上间距--*/
+p.top-margin{
+	 margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+		  background-color: #0033CC;
+          line-height: 1.5em;
+} 
+/*--下间距--*/
+p.bot-margin{
+	 margin-top: 0.5em;  
+          margin-bottom: 0.5em;
+          text-align: justify;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 2em;
+          font-size: 1.6em;
+          font-family: "heiti";
+          color: #000000;
+		  background-color: #0033CC;
+          line-height: 1.5em;
+} 
+/*--目录表一级--*/
+p.contents-1{
+	 margin-top: 0.2em;  
+          margin-bottom: 0.2em;
+          text-align: left;
+          margin-left: 0em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "heiti";
+          color: #000000;
+          line-height: 1.2em;
+}  
+/*--目录表二级--*/
+p.contents-2{
+	 margin-top: 0.2em;  
+          margin-bottom: 0.2em;
+          text-align: left;
+          margin-left: 2em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.2em;
+} 
+/*--目录表三级--*/
+p.contents-3{
+	 margin-top: 0.2em;  
+          margin-bottom: 0.2em;
+          text-align: left;
+          margin-left: 4em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.2em;
+} 
+/*--目录表四级--*/
+p.contents-4{
+	 margin-top: 0.2em;  
+          margin-bottom: 0.2em;
+          text-align: left;
+          margin-left: 6em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.2em;
+} 
+/*--目录表五级--*/
+p.contents-5{
+	 margin-top: 0.2em;  
+          margin-bottom: 0.2em;
+          text-align: left;
+          margin-left: 8em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.2em;
+} 
+/*--目录表六级--*/
+p.contents-6{
+	 margin-top: 0.2em;  
+          margin-bottom: 0.2em;
+          text-align: left;
+          margin-left: 10em;
+          margin-right: 0em;
+          text-indent: 0em;
+          font-size: 1em;
+          font-family: "songti";
+          color: #000000;
+          line-height: 1.2em;
+} 
+/*--表格图--*/
+div.table_img
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          
+   }
+
+/*--插图--*/
+div.chatu_img
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+
+          
+   }
+/*--全屏图--*/   
+div.full_img
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          
+   }
+   /*--封面图--*/   
+div.cover_img
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          
+   }
+   /*--书名页图--*/   
+div.title_img
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          
+   }   
+/*--左绕排图--*/
+div.chatu_img-float-l
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 1em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 50%;
+		  float: left;
+          
+   } 
+div.chatu_img-float-l-w10
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 1em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 10%;
+		  float: left;
+          
+   }
+div.chatu_img-float-l-w15
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 1em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 15%;
+		  float: left;
+          
+   }   
+div.chatu_img-float-l-w20
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 1em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 20%;
+		  float: left;
+          
+   }
+div.chatu_img-float-l-w25
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 1em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 25%;
+		  float: left;
+          
+   }   
+div.chatu_img-float-l-w30
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 1em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 30%;
+		  float: left;
+          
+   }   
+div.chatu_img-float-l-w35
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 1em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 35%;
+		  float: left;
+          
+   }   
+div.chatu_img-float-l-w40
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 1em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 40%;
+		  float: left;
+          
+   }      
+   div.chatu_img-float-l-w45
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 1em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 45%;
+		  float: left;
+          
+   }   
+
+/*--右绕排图--*/
+div.chatu_img-float-r
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 1em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 50%;
+		  float: right;
+          
+   }   
+   
+div.chatu_img-float-r-w45
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 1em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 45%;
+		  float: right;
+          
+   }   
+div.chatu_img-float-r-w40
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 1em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 40%;
+		  float: right;
+          
+   }   
+div.chatu_img-float-r-w35
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 1em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 35%;
+		  float: right;
+          
+   }   
+div.chatu_img-float-r-w30
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 1em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 30%;
+		  float: right;
+          
+   }   
+div.chatu_img-float-r-w25
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 1em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 25%;
+		  float: right;
+          
+   }   
+div.chatu_img-float-r-w20
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 1em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 20%;
+		  float: right;
+          
+   }   
+div.chatu_img-float-r-w15
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 1em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 15%;
+		  float: right;
+          
+   }   
+div.chatu_img-float-r-w10
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 1em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 10%;
+		  float: right;
+          
+   }      
+   
+/*--公式图--*/   
+div.equation_img
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          
+   }   
+/*--居右签名图--*/   
+div.sign_img-r
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: right;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          
+          
+   }      
+/*--居右签名图--*/   
+div.sign_img-l
+   {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: left;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          
+          
+   }      
+/*--图片--*/   
+img.pic-img  
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 100%;
+          
+   }  
+   
+img.pic-img-w30 
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+		  width: 30%;
+          
+          
+   } 
+img.pic-img-w35 
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+		  width: 35%;
+          
+          
+   } 
+img.pic-img-w40 
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+		  width: 40%;
+          
+          
+   } 
+img.pic-img-w45 
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+		  width: 45%;
+          
+          
+   } 
+img.pic-img-w50 
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+		  width: 50%;
+          
+          
+   } 
+img.pic-img-w55 
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+		  width: 55%;
+          
+          
+   } 
+img.pic-img-w60 
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+		  width: 60%;
+          
+          
+   } 
+img.pic-img-w65 
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+		  width: 65%;
+          
+          
+   } 
+img.pic-img-w70 
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+		  width: 70%;
+          
+          
+   } 
+img.pic-img-w75 
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+		  width: 75%;
+          
+          
+   }    
+img.pic-img-w80 
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+		  width: 80%;
+          
+          
+   }    
+   
+img.pic-img-w85 
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+		  width: 100%;
+          
+          
+   } 
+img.pic-img-w90 
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+		  width: 90%;
+          
+          
+   }    
+   img.pic-img-w95 
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+		  width: 95%;
+          
+          
+   } 
+
+/*--绕排图片--*/   
+img.pic-img-float  
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          width: 100%;
+          
+   }     
+/*--补字图--*/      
+img.pic-s
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          height: 1em;
+          
+   }   
+/*--单行行内图--*/         
+img.pic-h-1 
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          height: 1em;
+          
+   } 
+/*--二行行内图--*/            
+img.pic-h-2
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          height: 3em;
+          
+   } 
+   /*--三行行内图--*/         
+img.pic-h-3
+   {
+          margin-top: 0em;
+          margin-bottom: 0em;
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 0em;
+          padding-top: 0em;
+          padding-bottom: 0em;
+          padding-left: 0em;
+          padding-right: 0em;
+          height: 5em;
+          
+   }       
+
+div.sidebar-l
+   {
+	      margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+		  vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 1em;
+		  padding-top: 0.5em;
+		  padding-bottom: 0.5em;
+		  padding-left: 0.5em;
+		  padding-right: 0.5em;
+		  border-top-width: 1px;
+		  border-bottom-width: 1px;
+		  border-left-width: 1px;
+		  border-right-width: 1px;
+		  border-radius: 0em;
+		  border-style: solid;
+		  border-color:#000000;
+		  width: 20%;
+		  background-color: #FFFFFF;
+          float: left; 
+  }
+div.sidebar-l-w25
+   {
+	      margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+		  vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 1em;
+		  padding-top: 0.5em;
+		  padding-bottom: 0.5em;
+		  padding-left: 0.5em;
+		  padding-right: 0.5em;
+		  border-top-width: 1px;
+		  border-bottom-width: 1px;
+		  border-left-width: 1px;
+		  border-right-width: 1px;
+		  border-radius: 0em;
+		  border-style: solid;
+		  border-color:#000000;
+		  width: 25%;
+		  background-color: #FFFFFF;
+          float: left; 
+  }  
+div.sidebar-l-w30
+   {
+	      margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+		  vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 1em;
+		  padding-top: 0.5em;
+		  padding-bottom: 0.5em;
+		  padding-left: 0.5em;
+		  padding-right: 0.5em;
+		  border-top-width: 1px;
+		  border-bottom-width: 1px;
+		  border-left-width: 1px;
+		  border-right-width: 1px;
+		  border-radius: 0em;
+		  border-style: solid;
+		  border-color:#000000;
+		  width: 30%;
+		  background-color: #FFFFFF;
+          float: left; 
+  }  
+div.sidebar-l-w35
+   {
+	      margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+		  vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 1em;
+		  padding-top: 0.5em;
+		  padding-bottom: 0.5em;
+		  padding-left: 0.5em;
+		  padding-right: 0.5em;
+		  border-top-width: 1px;
+		  border-bottom-width: 1px;
+		  border-left-width: 1px;
+		  border-right-width: 1px;
+		  border-radius: 0em;
+		  border-style: solid;
+		  border-color:#000000;
+		  width: 35%;
+		  background-color: #FFFFFF;
+          float: left; 
+  }  
+div.sidebar-l-w40
+   {
+	      margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+		  vertical-align: middle;
+          margin-left: 0em;
+          margin-right: 1em;
+		  padding-top: 0.5em;
+		  padding-bottom: 0.5em;
+		  padding-left: 0.5em;
+		  padding-right: 0.5em;
+		  border-top-width: 1px;
+		  border-bottom-width: 1px;
+		  border-left-width: 1px;
+		  border-right-width: 1px;
+		  border-radius: 0em;
+		  border-style: solid;
+		  border-color:#000000;
+		  width: 40%;
+		  background-color: #FFFFFF;
+          float: left; 
+  }    
+
+ div.sidebar-r
+   {
+	      margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+		  vertical-align: middle;
+          margin-left: 1em;
+          margin-right: 0em;
+		  padding-top: 0.5em;
+		  padding-bottom: 0.5em;
+		  padding-left: 0.5em;
+		  padding-right: 0.5em;
+		  border-top-width: 1px;
+		  border-bottom-width: 1px;
+		  border-left-width: 1px;
+		  border-right-width: 1px;
+		  border-radius: 0em;
+		  border-style: solid;
+		  border-color:#000000;
+		  width: 20%;
+		  background-color: #FFFFFF;
+          float: right; 
+  }  
+  div.sidebar-r-w25
+   {
+	      margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+		  vertical-align: middle;
+          margin-left: 1em;
+          margin-right: 0em;
+		  padding-top: 0.5em;
+		  padding-bottom: 0.5em;
+		  padding-left: 0.5em;
+		  padding-right: 0.5em;
+		  border-top-width: 1px;
+		  border-bottom-width: 1px;
+		  border-left-width: 1px;
+		  border-right-width: 1px;
+		  border-radius: 0em;
+		  border-style: solid;
+		  border-color:#000000;
+		  width: 25%;
+		  background-color: #FFFFFF;
+          float: right; 
+  }  
+  div.sidebar-r-w30
+   {
+	      margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+		  vertical-align: middle;
+          margin-left: 1em;
+          margin-right: 0em;
+		  padding-top: 0.5em;
+		  padding-bottom: 0.5em;
+		  padding-left: 0.5em;
+		  padding-right: 0.5em;
+		  border-top-width: 1px;
+		  border-bottom-width: 1px;
+		  border-left-width: 1px;
+		  border-right-width: 1px;
+		  border-radius: 0em;
+		  border-style: solid;
+		  border-color:#000000;
+		  width: 30%;
+		  background-color: #FFFFFF;
+          float: right; 
+  }  
+   div.sidebar-r-w35
+   {
+	      margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+		  vertical-align: middle;
+          margin-left: 1em;
+          margin-right: 0em;
+		  padding-top: 0.5em;
+		  padding-bottom: 0.5em;
+		  padding-left: 0.5em;
+		  padding-right: 0.5em;
+		  border-top-width: 1px;
+		  border-bottom-width: 1px;
+		  border-left-width: 1px;
+		  border-right-width: 1px;
+		  border-radius: 0em;
+		  border-style: solid;
+		  border-color:#000000;
+		  width: 35%;
+		  background-color: #FFFFFF;
+          float: right; 
+  }  
+  div.sidebar-r-w40
+   {
+	      margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+		  vertical-align: middle;
+          margin-left: 1em;
+          margin-right: 0em;
+		  padding-top: 0.5em;
+		  padding-bottom: 0.5em;
+		  padding-left: 0.5em;
+		  padding-right: 0.5em;
+		  border-top-width: 1px;
+		  border-bottom-width: 1px;
+		  border-left-width: 1px;
+		  border-right-width: 1px;
+		  border-radius: 0em;
+		  border-style: solid;
+		  border-color:#000000;
+		  width: 40%;
+		  background-color: #FFFFFF;
+          float: right; 
+  }  
+   
+
+
+
+
+
+span.bold {font-weight: bold;
+	    font-family: "heiti";}
